@@ -15,7 +15,7 @@ Exemple complet : `videos/001_milon_revolt.json`.
 {
  "title": "...", "brand": "COTIDIE",
  "title": "Titre court et accrocheur",
- "description": "Description TikTok : 1-3 phrases qui donnent envie + une question pour faire commenter + 1 emoji",
+ "description": "voir « Style de la description » ci-dessous",
  "hashtags": ["#stoicisme", "#motivation", "#discipline", "#musculation", "#mindset", "+ 3 à 5 liés au sujet"],
  "cover_title": "4 à 7 mots en MAJUSCULES, 1 mot-clé entre *étoiles* (bleu glacé)",
  "cover_label": "petite ligne en haut (date, époque, nom)",
@@ -35,6 +35,17 @@ Champs d'une scène (une scène = un bout de phrase, 20 à 32 scènes par vidéo
 - `size` : taille de l'image (0.6-1.2). `fx: "blur"` : entrée floue.
 - `pause` : inutile en général (les phrases s'enchaînent naturellement).
 - Ne pas mettre `voice`, `rate`, `bpm` : les réglages par défaut sont ceux validés.
+
+## Style de la description (validé par le propriétaire)
+Exactement 3 temps, 2 à 3 phrases au total, 25 à 40 mots :
+1. **Accroche** : un fait historique précis et intrigant (époque/chiffre + personnage + promesse), ex. « Il y a 2500 ans, un lutteur grec a découvert le seul secret de la force qui marche encore aujourd'hui. »
+2. **Chute courte** avec points de suspension, qui révèle le secret sans tout dire, ex. « Juste un veau… et de la constance. »
+3. **Un emoji 🏛️** puis **une question courte au vouvoiement** qui pousse à commenter, ex. « Vous ajoutez quoi aujourd'hui ? »
+
+Modèle de référence (vidéo 001) :
+> Il y a 2500 ans, un lutteur grec a découvert le seul secret de la force qui marche encore aujourd'hui. Juste un veau… et de la constance. 🏛️ Vous ajoutez quoi aujourd'hui ?
+
+Pas de listes, pas de « Pas d'appli. Pas de coach. » en rafale, pas plus d'un emoji, pas de hashtags dans la description (ils vont dans `hashtags`).
 
 ## Banque d'images (tags → clés)
 - `anger` : marcus_7, roman_2

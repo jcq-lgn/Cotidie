@@ -1,0 +1,9 @@
+edge-tts
+numpy
+scipy
+pillow
+librosa
+rembg
+onnxruntime
+fonttools
+brotli

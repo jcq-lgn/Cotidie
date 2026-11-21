@@ -1,0 +1,227 @@
+{
+ "title": "Milon de Crotone : le seul secret de la force",
+ "brand": "COTIDIE",
+ "voice": "fr-FR-RemyMultilingualNeural",
+ "rate": "+2%",
+ "caption": "Il y a 2500 ans, un lutteur grec a inventé la surcharge progressive. Il n'avait pas d'appli, pas de coach. Juste un veau. Et de la constance. 🏛️ #stoicisme #motivation #discipline #musculation #mindset #rome",
+ "scenes": [
+  {
+   "t": "Il y a deux mille cinq cents ans,",
+   "img": "protes_0_sil",
+   "label": "500 AV. J.-C.",
+   "hit": true,
+   "pause": 0.03,
+   "tags": [
+    "silhouette"
+   ],
+   "hold": true
+  },
+  {
+   "t": "un homme a découvert le seul *secret* de la force",
+   "img": "herc_1",
+   "join": true,
+   "tags": [
+    "strength",
+    "hero"
+   ]
+  },
+  {
+   "t": "qui marche *encore aujourd'hui.*",
+   "img": "goltz_3",
+   "bg": "blue",
+   "join": true,
+   "pause": 0.15,
+   "drop": true,
+   "hit": true
+  },
+  {
+   "t": "Il s'appelait *Milon de Crotone.*",
+   "img": "milo_4",
+   "label": "MILON",
+   "size": 1.1,
+   "tags": [
+    "struggle",
+    "strength"
+   ]
+  },
+  {
+   "t": "Six fois ^champion olympique.^",
+   "img": "athlete_1",
+   "bg": "blue",
+   "pause": 0.17,
+   "tag": "6 × OLYMPIA"
+  },
+  {
+   "t": "La légende raconte qu'un jour,",
+   "img": "hourglass_3",
+   "pause": 0.03,
+   "tags": [
+    "time",
+    "warrior"
+   ]
+  },
+  {
+   "t": "il a soulevé un *veau* sur ses épaules.",
+   "img": "bull_4",
+   "size": 0.75,
+   "join": true,
+   "tags": [
+    "bull"
+   ]
+  },
+  {
+   "t": "Le lendemain, il l'a soulevé *encore.*",
+   "img": "atlas_1"
+  },
+  {
+   "t": "Et le jour d'après.",
+   "img": "herc_0",
+   "pause": 0.05
+  },
+  {
+   "t": "Et *chaque jour.*",
+   "counter": [
+    1,
+    1460
+   ],
+   "pause": 0.25,
+   "hold": true
+  },
+  {
+   "t": "Le veau grandissait.",
+   "img": "bull_4",
+   "size": 0.95,
+   "fx": "blur",
+   "bg": "blue",
+   "pause": 0.07,
+   "tags": [
+    "bull"
+   ]
+  },
+  {
+   "t": "Milon aussi.",
+   "img": "diad_2",
+   "bg": "light",
+   "pause": 0.17
+  },
+  {
+   "t": "Quatre ans plus tard, il portait un ^taureau adulte^",
+   "img": "bull_1",
+   "bg": "blue",
+   "hit": true,
+   "tags": [
+    "bull"
+   ]
+  },
+  {
+   "t": "sur toute la longueur du *stade d'Olympie.*",
+   "img": "goltz_0",
+   "bg": "light",
+   "join": true,
+   "pause": 0.23
+  },
+  {
+   "t": "Puis il l'a mangé.",
+   "img": "emperor_1",
+   "pause": 0.3,
+   "tags": [
+    "emperor"
+   ]
+  },
+  {
+   "t": "Pas de *programme miracle.*",
+   "img": "melen_0",
+   "tag": "FAUX"
+  },
+  {
+   "t": "Pas de *raccourci.*",
+   "img": "hercprint_7",
+   "pause": 0.15
+  },
+  {
+   "t": "Juste un peu plus *lourd.*",
+   "img": "bull_1",
+   "pause": 0.05,
+   "size": 1.0,
+   "tags": [
+    "bull"
+   ]
+  },
+  {
+   "t": "Chaque jour.",
+   "big": "+1",
+   "bg": "light",
+   "pause": 0.23
+  },
+  {
+   "t": "Vous voulez *tout, tout de suite.*",
+   "img": "marcus_7",
+   "bg": "blue",
+   "fx": "blur",
+   "pause": 0.15,
+   "tags": [
+    "emperor",
+    "anger"
+   ]
+  },
+  {
+   "t": "Lui voulait juste soulever le veau...",
+   "img": "protes_0",
+   "pause": 0.05
+  },
+  {
+   "t": "une fois de *plus.*",
+   "img": "bull_4",
+   "size": 0.7,
+   "bg": "light",
+   "join": true,
+   "pause": 0.25,
+   "tags": [
+    "bull"
+   ]
+  },
+  {
+   "t": "Les Romains avaient un mot pour ça.",
+   "img": "athlete_1",
+   "pause": 0.15
+  },
+  {
+   "t": "*Cotidie.* Chaque jour.",
+   "big": "COTIDIE",
+   "bg": "blue",
+   "hit": true,
+   "pause": 0.25
+  },
+  {
+   "t": "Aujourd'hui, ajoutez *un kilo.*",
+   "big": "+1 KG",
+   "pause": 0.07,
+   "bg": "dark"
+  },
+  {
+   "t": "*Une répétition.*",
+   "big": "+1 REP",
+   "pause": 0.07,
+   "bg": "dark"
+  },
+  {
+   "t": "*Une minute.*",
+   "big": "+1 MIN",
+   "pause": 0.15,
+   "bg": "light"
+  },
+  {
+   "t": "Demain, *recommencez.*",
+   "img": "diad_2",
+   "pause": 0.17
+  },
+  {
+   "t": "Dans quatre ans, c'est vous qui porterez ^le taureau.^",
+   "img": "protes_0_sil",
+   "bg": "blue",
+   "hit": true,
+   "pause": 0.2,
+   "hold": true
+  }
+ ]
+}

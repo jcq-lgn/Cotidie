@@ -1,0 +1,384 @@
+{
+ "herc_1": [
+  "statue",
+  0.45,
+  [
+   "strength",
+   "hero"
+  ]
+ ],
+ "herc_0": [
+  "statue",
+  0.42,
+  [
+   "strength",
+   "hero"
+  ]
+ ],
+ "athlete_1": [
+  "statue",
+  0.5,
+  [
+   "athlete",
+   "youth"
+  ]
+ ],
+ "diad_2": [
+  "statue",
+  0.44,
+  [
+   "athlete",
+   "strength"
+  ]
+ ],
+ "protes_0": [
+  "statue",
+  0.4,
+  [
+   "warrior",
+   "athlete"
+  ]
+ ],
+ "protes_0_sil": [
+  "sil",
+  1.0,
+  [
+   "silhouette"
+  ]
+ ],
+ "emperor_1": [
+  "statue",
+  1.0,
+  [
+   "emperor",
+   "head"
+  ]
+ ],
+ "marcus_7": [
+  "statue",
+  1.0,
+  [
+   "emperor",
+   "head",
+   "anger"
+  ]
+ ],
+ "milo_4": [
+  "statue",
+  1.0,
+  [
+   "struggle",
+   "milo"
+  ]
+ ],
+ "bull_1": [
+  "statue",
+  0.78,
+  [
+   "beast",
+   "bull"
+  ]
+ ],
+ "bull_4": [
+  "statue",
+  1.0,
+  [
+   "beast",
+   "bull"
+  ]
+ ],
+ "goltz_0": [
+  "print",
+  0.55,
+  [
+   "strength",
+   "hero"
+  ]
+ ],
+ "goltz_3": [
+  "print",
+  0.45,
+  [
+   "strength",
+   "hero"
+  ]
+ ],
+ "atlas_1": [
+  "print",
+  0.55,
+  [
+   "weight",
+   "strength"
+  ]
+ ],
+ "hercprint_7": [
+  "print",
+  0.6,
+  [
+   "strength",
+   "hero"
+  ]
+ ],
+ "melen_0": [
+  "print",
+  1.0,
+  [
+   "doubt",
+   "time"
+  ]
+ ],
+ "hourglass_3": [
+  "print",
+  1.0,
+  [
+   "death",
+   "warrior",
+   "time"
+  ]
+ ],
+ "armor_0": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "armor"
+  ]
+ ],
+ "armor_7": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "armor"
+  ]
+ ],
+ "helmet_0": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "armor"
+  ]
+ ],
+ "helmet_6": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "armor"
+  ]
+ ],
+ "helmet_3": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "armor"
+  ]
+ ],
+ "sword_2": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "weapon"
+  ]
+ ],
+ "sword_4": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "weapon"
+  ]
+ ],
+ "roman_0": [
+  "statue",
+  1.0,
+  [
+   "head",
+   "emperor",
+   "youth"
+  ]
+ ],
+ "roman_2": [
+  "statue",
+  1.0,
+  [
+   "head",
+   "emperor",
+   "anger"
+  ]
+ ],
+ "roman_3": [
+  "statue",
+  1.0,
+  [
+   "head",
+   "emperor"
+  ]
+ ],
+ "roman_4": [
+  "statue",
+  1.0,
+  [
+   "head",
+   "emperor"
+  ]
+ ],
+ "roman_5": [
+  "statue",
+  1.0,
+  [
+   "head",
+   "old",
+   "philosopher"
+  ]
+ ],
+ "philo_1": [
+  "statue",
+  1.0,
+  [
+   "head",
+   "philosopher",
+   "old"
+  ]
+ ],
+ "philo_5": [
+  "statue",
+  1.0,
+  [
+   "head",
+   "philosopher"
+  ]
+ ],
+ "philo_6": [
+  "statue",
+  1.0,
+  [
+   "head",
+   "philosopher"
+  ]
+ ],
+ "philo_2": [
+  "statue",
+  1.0,
+  [
+   "philosopher"
+  ]
+ ],
+ "bronze_2": [
+  "statue",
+  1.0,
+  [
+   "philosopher",
+   "doubt"
+  ]
+ ],
+ "greek_0": [
+  "statue",
+  1.0,
+  [
+   "beast",
+   "lion"
+  ]
+ ],
+ "labors_0": [
+  "print",
+  0.8,
+  [
+   "struggle",
+   "strength"
+  ]
+ ],
+ "labors_3": [
+  "print",
+  1.0,
+  [
+   "struggle",
+   "beast"
+  ]
+ ],
+ "labors_6": [
+  "print",
+  1.0,
+  [
+   "struggle",
+   "bull",
+   "beast"
+  ]
+ ],
+ "lionfight_1": [
+  "print",
+  1.0,
+  [
+   "struggle",
+   "beast",
+   "lion"
+  ]
+ ],
+ "lionfight_7": [
+  "print",
+  0.7,
+  [
+   "struggle",
+   "strength"
+  ]
+ ],
+ "titan_2": [
+  "print",
+  1.0,
+  [
+   "weight",
+   "struggle"
+  ]
+ ],
+ "titan_0": [
+  "print",
+  1.0,
+  [
+   "prison",
+   "time",
+   "doubt"
+  ]
+ ],
+ "battle_4": [
+  "print",
+  1.0,
+  [
+   "battle",
+   "warrior"
+  ]
+ ],
+ "battle_6": [
+  "print",
+  1.0,
+  [
+   "battle",
+   "warrior"
+  ]
+ ],
+ "skull_1": [
+  "print",
+  1.0,
+  [
+   "death",
+   "time"
+  ]
+ ],
+ "skull_5": [
+  "print",
+  1.0,
+  [
+   "death"
+  ]
+ ],
+ "sarc_6": [
+  "statue",
+  1.0,
+  [
+   "battle",
+   "struggle"
+  ]
+ ]
+}

@@ -1,0 +1,6 @@
+out/
+*_work/
+__pycache__/
+assets/raw/
+music/**/*.wav
+music/**/*.mp3

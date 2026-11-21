@@ -14,17 +14,17 @@ sys.path.insert(0, HERE)
 W, H, FPS = 1080, 1920, 30
 FONTS = f"{S}/fonts"
 ANTON = f"{FONTS}/anton-latin-400-normal.ttf"
-F_CAP = ImageFont.truetype(ANTON, 104)
+F_CAP = ImageFont.truetype(ANTON, 94)
 F_LABEL = ImageFont.truetype(ANTON, 54)
-F_TAG = ImageFont.truetype(ANTON, 110)
-F_BIG = ImageFont.truetype(ANTON, 300)
+F_TAG = ImageFont.truetype(ANTON, 96)
+F_BIG = ImageFont.truetype(ANTON, 260)
 F_BRAND = ImageFont.truetype(ANTON, 150)
 F_SMALL = ImageFont.truetype(f"{FONTS}/montserrat-latin-800-normal.ttf", 42)
 ICE = (110, 222, 255)
 ICE_D = (10, 92, 214)
 WHITE = (240, 246, 250)
 INK = (8, 10, 14)
-CAP_Y = 1300
+CAP_Y = 1240  # TikTok safe zone: above the description area
 HANDLE = "@cotidie.mentalite"
 LIB = json.load(open(f"{S}/library.json"))
 PRINT_KEYS = {k for k, v in LIB.items() if v[0] == "print"}
@@ -238,7 +238,7 @@ def draw_shot(img, sc, shot, t, t_end, kw_punch):
     im = asset(shot["key"])
     is_print = shot["key"] in PRINT_KEYS
     size = sc.get("size", 1.0) if shot["key"] == sc.get("img") else 1.0
-    mw, mh = (1000, 1100) if is_print else (980, 1120)
+    mw, mh = (780, 900) if is_print else (760, 960)  # safe zone (TikTok crops ~10% per side on tall phones)
     r = min(mw * size / im.width, mh * size / im.height)
     ti = t - shot["t"]; d = max(t_end - shot["t"], 0.2); k = min(ti / d, 1.0)
     mv = shot["move"]
@@ -254,7 +254,7 @@ def draw_shot(img, sc, shot, t, t_end, kw_punch):
         sub = Image.blend(sub, sm, 0.7)
     if sc.get("fx") == "blur" and ti < 0.3 and shot is sc["_shots"][0]:
         sub = sub.filter(ImageFilter.GaussianBlur(16 * (1 - ti / 0.3)))
-    cy = sc.get("cy", 790)
+    cy = sc.get("cy", 760)
     img.alpha_composite(sub, (int(W / 2 - nw / 2 + dx), int(cy - nh / 2 + dy)))
 
 
@@ -265,9 +265,9 @@ def draw_label(img, text, ti, light):
     w = tw(F_LABEL, spaced)
     d = ImageDraw.Draw(img)
     L = 160 * a
-    d.line([(W / 2 - w / 2 - 30 - L, 182), (W / 2 - w / 2 - 30, 182)], fill=ICE + (255,), width=4)
-    d.line([(W / 2 + w / 2 + 30, 182), (W / 2 + w / 2 + 30 + L, 182)], fill=ICE + (255,), width=4)
-    text_sh(img, (W / 2, 182), spaced, F_LABEL, col, anchor="mm", blur=5, sh=(0, 0, 0, 0 if light else 200))
+    d.line([(W / 2 - w / 2 - 30 - L, 270), (W / 2 - w / 2 - 30, 270)], fill=ICE + (255,), width=4)
+    d.line([(W / 2 + w / 2 + 30, 270), (W / 2 + w / 2 + 30 + L, 270)], fill=ICE + (255,), width=4)
+    text_sh(img, (W / 2, 270), spaced, F_LABEL, col, anchor="mm", blur=5, sh=(0, 0, 0, 0 if light else 200))
 
 
 def draw_tag(img, text, ti):
@@ -289,7 +289,7 @@ def draw_tag(img, text, ti):
 def draw_big(img, text, ti, light):
     k = ease_out(ti / 0.2)
     sc = 1.5 - 0.5 * k
-    font = F_BIG if tw(F_BIG, text) < 960 else ImageFont.truetype(ANTON, int(300 * 960 / tw(F_BIG, text)))
+    font = F_BIG if tw(F_BIG, text) < 760 else ImageFont.truetype(ANTON, int(260 * 760 / tw(F_BIG, text)))
     layer = Image.new("RGBA", (W, 520), (0, 0, 0, 0))
     d = ImageDraw.Draw(layer)
     off = int(14 * (1 - k)) + 6
@@ -312,7 +312,7 @@ def caption_groups(tokens):
     groups, cur = [], []
     for tok in tokens:
         trial = " ".join(x[0] for x in cur + [tok]).upper()
-        if cur and (len(cur) >= 3 or tw(F_CAP, trial) > 920):
+        if cur and (len(cur) >= 3 or tw(F_CAP, trial) > 720):
             groups.append(cur); cur = []
         cur.append(tok)
         if re.search(r"[.,!?…:;]$", tok[0]): groups.append(cur); cur = []

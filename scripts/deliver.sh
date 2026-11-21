@@ -12,4 +12,14 @@ vb=$(python3 -c "print(int(min(6e6, 24*8*1024*1024/$d - 128000)))")
 ffmpeg -y -v error -i "$in" -c:v libx264 -preset slow -b:v $vb -maxrate $((vb*2)) -bufsize $((vb*4)) \
   -c:a aac -b:a 128k -movflags +faststart "out/${base}_A_PUBLIER.mp4"
 ffmpeg -y -v error -i "out/$base.mp4" -vf "fps=1/2,scale=150:-1,tile=8x4" -frames:v 1 "out/${base}_controle.png"
+python3 pipe/cover.py "$src" "out/${base}_couverture.jpg"
+python3 - "$src" "out/${base}_texte.txt" <<'PY'
+import json, sys
+d = json.load(open(sys.argv[1]))
+desc = d.get("description") or d.get("caption", "")
+tags = " ".join(d.get("hashtags", []))
+txt = f"TITRE : {d.get('title','')}\n\nDESCRIPTION :\n{desc}\n\nHASHTAGS :\n{tags}\n\nA COPIER DANS TIKTOK :\n{desc}\n\n{tags}\n"
+open(sys.argv[2], "w").write(txt); print(txt)
+PY
 echo "out/${base}_A_PUBLIER.mp4"
+echo "out/${base}_couverture.jpg"

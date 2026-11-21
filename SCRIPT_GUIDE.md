@@ -14,7 +14,12 @@ Exemple complet : `videos/001_milon_revolt.json`.
 ```json
 {
  "title": "...", "brand": "COTIDIE",
- "caption": "Légende TikTok (1-2 phrases + 5-7 hashtags : #stoicisme #motivation #discipline #musculation #mindset ...)",
+ "title": "Titre court et accrocheur",
+ "description": "Description TikTok : 1-3 phrases qui donnent envie + une question pour faire commenter + 1 emoji",
+ "hashtags": ["#stoicisme", "#motivation", "#discipline", "#musculation", "#mindset", "+ 3 à 5 liés au sujet"],
+ "cover_title": "4 à 7 mots en MAJUSCULES, 1 mot-clé entre *étoiles* (bleu glacé)",
+ "cover_label": "petite ligne en haut (date, époque, nom)",
+ "cover_img": "clé de l'image la plus forte de la banque pour la couverture",
  "music": {"file": "music/revolt/music.wav", "beats": "music/revolt/beats.json", "offset": 0.51},
  "scenes": [ { "t": "texte lu", ... }, ... ]
 }

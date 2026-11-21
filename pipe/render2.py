@@ -25,6 +25,7 @@ ICE_D = (10, 92, 214)
 WHITE = (240, 246, 250)
 INK = (8, 10, 14)
 CAP_Y = 1300
+HANDLE = "@cotidie.mentalite"
 LIB = json.load(open(f"{S}/library.json"))
 PRINT_KEYS = {k for k, v in LIB.items() if v[0] == "print"}
 
@@ -350,6 +351,7 @@ def outro(img, ti, brand):
     ImageDraw.Draw(img).rectangle([W / 2 - 280 * k, 905, W / 2 + 280 * k, 911], fill=ICE + (255,))
     text_sh(img, (W / 2, 975), "UN RAPPEL PAR JOUR.", F_SMALL, WHITE + (int(255 * k),), anchor="mm", blur=4)
     text_sh(img, (W / 2, 1040), "ABONNEZ-VOUS.", F_SMALL, ICE + (int(255 * k),), anchor="mm", blur=4)
+    text_sh(img, (W / 2, 1150), HANDLE, F_SMALL, (170, 190, 205, int(230 * k)), anchor="mm", blur=4)
 
 
 def chroma(frame, amt):

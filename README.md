@@ -1,6 +1,6 @@
 # Cotidie — production automatique de vidéos TikTok
 
-Compte : **@cotidie43** · DA « Glacier » (voir `DA.md`).
+Compte : **@cotidie.mentalite** · DA « Glacier » (voir `DA.md`).
 
 ## Contenu
 - `pipe/render2.py` : moteur de montage (plans rapides calés sur le tempo, sous-titres mot à mot, effets).

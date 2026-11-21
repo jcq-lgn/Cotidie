@@ -1,4 +1,4 @@
-# Charte DA du compte (validée le 21/11/2026)
+# Charte DA du compte Cotidie (@cotidie.mentalite) (validée le 21/11/2026)
 
 Appliquée par défaut par `pipe/render2.py` + `pipe/audio2.py` + `pipe/hardtek.py`.
 

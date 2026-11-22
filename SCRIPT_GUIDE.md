@@ -8,7 +8,12 @@ Exemple complet : `videos/001_milon_revolt.json`.
 - Exactitude : pas de fausse citation ni de chiffre inventé. En cas de doute, formuler « la légende raconte… ».
 - **Vouvoiement**. Phrases courtes, rythmées, qui se terminent par un appel à l'action concret.
 - Structure : accroche choc en 1 phrase (≤ 3 s) → histoire → leçon → application concrète « aujourd'hui… » → chute forte.
-- Longueur : 120 à 150 mots, **45 à 55 s** (le son « revolt » est calé jusqu'à ~55 s).
+- Longueur : **80 à 110 mots, 30 à 40 s**. Les statistiques des vidéos 001-002 montrent que le visionnage complet chute au-delà de 35-40 s : plus court = plus de vidéos regardées jusqu'au bout.
+- **La 1re seconde décide de tout** (38 % des spectateurs partaient à 0:01 sur la 001) :
+  - 1re scène = l'image la plus forte (visage de statue, regard), jamais une silhouette sombre ;
+  - 1re phrase = un fait choc ou une question, ≤ 8 mots si possible ;
+  - champ `hook` : 4 à 8 mots en MAJUSCULES affichés en haut dès la 1re image (1 mot-clé entre *étoiles*). Par défaut = `cover_title`.
+- Fin : terminer sur une phrase qui donne envie de revoir le début (boucle) ; l'écran de fin ne dure qu'1 s.
 
 ## Format JSON
 ```json
@@ -17,6 +22,7 @@ Exemple complet : `videos/001_milon_revolt.json`.
  "title": "Titre court et accrocheur",
  "description": "voir « Style de la description » ci-dessous",
  "hashtags": ["#stoicisme", "#motivation", "#discipline", "#musculation", "#mindset", "+ 3 à 5 liés au sujet"],
+ "hook": "4 à 8 mots en MAJUSCULES affichés dès la 1re image, 1 mot-clé entre *étoiles*",
  "cover_title": "4 à 7 mots en MAJUSCULES, 1 mot-clé entre *étoiles* (bleu glacé)",
  "cover_label": "petite ligne en haut (date, époque, nom)",
  "cover_img": "clé de l'image la plus forte de la banque pour la couverture",
@@ -25,7 +31,7 @@ Exemple complet : `videos/001_milon_revolt.json`.
  "scenes": [ { "t": "texte lu", ... }, ... ]
 }
 ```
-Champs d'une scène (une scène = un bout de phrase, 20 à 32 scènes par vidéo) :
+Champs d'une scène (une scène = un bout de phrase, 14 à 24 scènes par vidéo) :
 - `t` (obligatoire) : texte lu. `*mots*` = mot-clé bleu glacé, `^mots^` = mot fort en bloc blanc (1 à 2 marquages par scène max).
 - `join: true` : la scène continue la même phrase que la précédente (pas de coupure dans la voix).
 - `img` : image principale (clé de la banque ci-dessous). `tags` : thèmes pour les plans rapides suivants (sinon ceux de l'image).

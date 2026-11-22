@@ -179,7 +179,7 @@ def build(script, work):
     scenes[0]["_start"] = 0.0
     for a, b in zip(scenes, scenes[1:]): a["_end"] = b["_start"]
     scenes[-1]["_end"] = tcur + 0.15
-    return scenes, clips, tcur + 0.15 + script.get("outro", 2.2)
+    return scenes, clips, tcur + 0.15 + script.get("outro", 1.0)
 
 
 def plan_shots(scenes, seed, shot_len=0.72, grid=None, allowed=None):
@@ -246,13 +246,13 @@ def draw_shot(img, sc, shot, t, t_end, kw_punch):
     ti = t - shot["t"]; d = max(t_end - shot["t"], 0.2); k = min(ti / d, 1.0)
     mv = shot["move"]
     z = {"push": 1.0 + 0.16 * k, "pull": 1.16 - 0.14 * k}.get(mv, 1.08)
-    z *= 1 + 0.28 * (1 - ease_out(ti / 0.16))  # entry punch
+    if shot["t"] > 0.01: z *= 1 + 0.28 * (1 - ease_out(ti / 0.16))  # entry punch (not on frame 0)
     z *= kw_punch
     dx = {"panL": 70 - 140 * k, "panR": -70 + 140 * k}.get(mv, 0)
     dy = -50 * k if mv == "rise" else -15 * k
     nw, nh = max(2, int(im.width * r * z)), max(2, int(im.height * r * z))
     sub = im.resize((nw, nh), Image.BILINEAR)
-    if ti < 0.07:  # whip smear on entry
+    if ti < 0.07 and shot["t"] > 0.01:  # whip smear on entry
         sm = sub.resize((max(2, nw // 10), nh), Image.BILINEAR).resize((nw, nh), Image.BILINEAR)
         sub = Image.blend(sub, sm, 0.7)
     if sc.get("fx") == "blur" and ti < 0.3 and shot is sc["_shots"][0]:
@@ -271,6 +271,35 @@ def draw_label(img, text, ti, light):
     d.line([(W / 2 - w / 2 - 30 - L, 270), (W / 2 - w / 2 - 30, 270)], fill=ICE + (255,), width=4)
     d.line([(W / 2 + w / 2 + 30, 270), (W / 2 + w / 2 + 30 + L, 270)], fill=ICE + (255,), width=4)
     text_sh(img, (W / 2, 270), spaced, F_LABEL, col, anchor="mm", blur=5, sh=(0, 0, 0, 0 if light else 200))
+
+
+F_HOOK = ImageFont.truetype(ANTON, 88)
+
+
+def draw_hook(img, text, t, t_end, light):
+    """On-screen hook from frame 0 (for muted / fast scrollers). *word* = ice accent."""
+    a = 1.0 if t < t_end - 0.3 else max(0.0, (t_end - t) / 0.3)
+    words = []
+    for part in re.split(r"(\*[^*]+\*)", text):
+        words += [(w, part.startswith("*")) for w in part.strip("*").split()]
+    lines, cur = [], []
+    for w in words:
+        if cur and F_HOOK.getlength(" ".join(x for x, _ in cur + [w])) > 860:
+            lines.append(cur); cur = []
+        cur.append(w)
+    if cur: lines.append(cur)
+    lh = 98; y0 = 300
+    layer = Image.new("RGBA", img.size, (0, 0, 0, 0)); d = ImageDraw.Draw(layer)
+    sh = Image.new("RGBA", img.size, (0, 0, 0, 0)); sd = ImageDraw.Draw(sh)
+    for i, line in enumerate(lines[:3]):
+        txt = " ".join(x for x, _ in line); x = W / 2 - F_HOOK.getlength(txt) / 2
+        for w, acc in line:
+            sd.text((x + 3, y0 + i * lh + 7), w, font=F_HOOK, fill=(0, 0, 0, int(240 * a)), anchor="lm")
+            col = (ICE_D if light else ICE) if acc else (INK if light else WHITE)
+            d.text((x, y0 + i * lh), w, font=F_HOOK, fill=col + (int(255 * a),), anchor="lm")
+            x += F_HOOK.getlength(w + " ")
+    img.alpha_composite(sh.filter(ImageFilter.GaussianBlur(7)))
+    img.alpha_composite(layer)
 
 
 def draw_tag(img, text, ti):
@@ -414,14 +443,17 @@ def render_range(args):
                 s = cur[-1]; nxt = shots[shots.index(s) + 1]["t"] if shots.index(s) + 1 < len(shots) else sc["_end"]
                 draw_shot(frame, sc, s, t, nxt, punch)
                 if t - s["t"] < 0.05 and s is not shots[0]: ab = max(ab, 6)
-            if sc.get("label"): draw_label(frame, sc["label"], ti, light)
+            hook_on = G.get("hook") and t < G["hook_end"]
+            if sc.get("label") and not hook_on: draw_label(frame, sc["label"], ti, light)
             if sc.get("counter"): draw_counter(frame, sc["counter"], ti, dur, light)
             if sc.get("big"): draw_big(frame, sc["big"], ti, light)
             if sc.get("tag"): shake = max(shake, draw_tag(frame, sc["tag"], ti - 0.15))
-            if sc.get("hit") and ti < 0.25:
+            first = sc is scenes[0]
+            if sc.get("hit") and ti < 0.25 and not first:
                 shake = max(shake, 1 - ti / 0.25); ab = max(ab, 18 * (1 - ti / 0.25))
             draw_caption(frame, G["groups"][scenes.index(sc)], t, light)
-            if sc.get("hit") and ti < 0.12:
+            if hook_on: draw_hook(frame, G["hook"], t, G["hook_end"], light)
+            if sc.get("hit") and ti < 0.12 and not first:
                 frame.alpha_composite(Image.new("RGBA", (W, H), (230, 245, 255, int(200 * (1 - ti / 0.12)))))
         else:
             outro(frame, t - outro_t, brand)
@@ -472,7 +504,9 @@ def render(script_path, out_path, workers=4):
                music_file=os.path.join(S, music["file"]) if music and music.get("file") else None, music_offset=music_offset,
                music_vol=script.get("music_vol", 0.28))
     n = int(total * FPS)
-    state = dict(music=bool(music), drop_t=drop_t, beat=beat_s, beats=sorted(g for g in grid if g >= (0 if music else drop_t - 0.01)), scenes=scenes, total=total, outro_t=outro_t, kw=kw, brand=script.get("brand", "COTIDIE"),
+    hook = script.get("hook", script.get("cover_title"))
+    hook_end = min(3.2, scenes[min(2, len(scenes) - 1)]["_end"]) if hook else 0
+    state = dict(hook=hook, hook_end=hook_end, music=bool(music), drop_t=drop_t, beat=beat_s, beats=sorted(g for g in grid if g >= (0 if music else drop_t - 0.01)), scenes=scenes, total=total, outro_t=outro_t, kw=kw, brand=script.get("brand", "COTIDIE"),
                  groups=[caption_groups(sc["_tokens"]) for sc in scenes])
     chunks = [(i * n // workers, (i + 1) * n // workers, f"{work}/part{i}.mp4") for i in range(workers)]
     with Pool(workers, initializer=init_worker, initargs=(state,)) as p:

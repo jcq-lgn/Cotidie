@@ -13,8 +13,12 @@ async def _tts(text, out_mp3, voice, rate, pitch):
     return words
 
 def tts(text, out_mp3, voice="fr-FR-HenriNeural", rate="-6%", pitch="-8Hz"):
-    for attempt in range(4):
-        try: return asyncio.run(_tts(text, out_mp3, voice, rate, pitch))
-        except Exception as e:
-            if attempt == 3: raise
-            import time; time.sleep(3)
+    import time
+    for attempt in range(8):  # the free voice service has short outages: back off up to ~3 min
+        try:
+            words = asyncio.run(_tts(text, out_mp3, voice, rate, pitch))
+            if words: return words
+            raise RuntimeError("no audio")
+        except Exception:
+            if attempt == 7: raise
+            time.sleep(min(60, 5 * 2 ** attempt))

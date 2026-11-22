@@ -380,5 +380,612 @@
    "battle",
    "struggle"
   ]
+ ],
+ "aic_armr_1": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "armor",
+   "horse"
+  ]
+ ],
+ "aic_armr_3": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "armor"
+  ]
+ ],
+ "aic_armr_4": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "armor"
+  ]
+ ],
+ "aic_armr_5": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "armor"
+  ]
+ ],
+ "aic_armr_9": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "armor"
+  ]
+ ],
+ "aic_armr_8": [
+  "statue",
+  1.0,
+  [
+   "armor",
+   "weapon"
+  ]
+ ],
+ "aic_helm_1": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "armor"
+  ]
+ ],
+ "aic_helm_3": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "armor"
+  ]
+ ],
+ "aic_helm_5": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "armor"
+  ]
+ ],
+ "aic_helm_6": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "armor"
+  ]
+ ],
+ "aic_helm_7": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "armor"
+  ]
+ ],
+ "aic_helm_9": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "armor"
+  ]
+ ],
+ "aic_swd_3": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "weapon"
+  ]
+ ],
+ "aic_swd_4": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "weapon"
+  ]
+ ],
+ "aic_swd_7": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "weapon"
+  ]
+ ],
+ "aic_swd_8": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "weapon"
+  ]
+ ],
+ "aic_shield_2": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "armor"
+  ]
+ ],
+ "aic_shield_6": [
+  "statue",
+  1.0,
+  [
+   "warrior",
+   "armor"
+  ]
+ ],
+ "aic_athl_4": [
+  "statue",
+  0.45,
+  [
+   "athlete",
+   "strength"
+  ]
+ ],
+ "aic_athl_5": [
+  "statue",
+  1.0,
+  [
+   "philosopher",
+   "old"
+  ]
+ ],
+ "aic_bronzefig_2": [
+  "statue",
+  0.45,
+  [
+   "strength",
+   "hero"
+  ]
+ ],
+ "aic_bronzefig_5": [
+  "statue",
+  1.0,
+  [
+   "philosopher",
+   "doubt"
+  ]
+ ],
+ "aic_battle_8": [
+  "statue",
+  1.0,
+  [
+   "struggle",
+   "strength",
+   "hero"
+  ]
+ ],
+ "aic_battle_9": [
+  "statue",
+  1.0,
+  [
+   "struggle",
+   "strength"
+  ]
+ ],
+ "aic_herc_3": [
+  "statue",
+  0.5,
+  [
+   "strength",
+   "hero"
+  ]
+ ],
+ "aic_wrest_4": [
+  "statue",
+  1.0,
+  [
+   "struggle",
+   "strength"
+  ]
+ ],
+ "aic_horse_1": [
+  "statue",
+  1.0,
+  [
+   "struggle",
+   "beast",
+   "horse"
+  ]
+ ],
+ "aic_horse_3": [
+  "statue",
+  1.0,
+  [
+   "beast",
+   "horse"
+  ]
+ ],
+ "aic_horse_8": [
+  "statue",
+  1.0,
+  [
+   "beast",
+   "struggle",
+   "lion"
+  ]
+ ],
+ "aic_horse_9": [
+  "statue",
+  1.0,
+  [
+   "beast",
+   "horse"
+  ]
+ ],
+ "aic_horse_4": [
+  "statue",
+  1.0,
+  [
+   "battle",
+   "horse"
+  ]
+ ],
+ "aic_lion_0": [
+  "statue",
+  0.6,
+  [
+   "struggle",
+   "lion",
+   "strength"
+  ]
+ ],
+ "aic_lion_1": [
+  "statue",
+  1.0,
+  [
+   "beast",
+   "lion"
+  ]
+ ],
+ "aic_lion_2": [
+  "statue",
+  1.0,
+  [
+   "beast",
+   "lion"
+  ]
+ ],
+ "aic_rhead_1": [
+  "statue",
+  1.0,
+  [
+   "head",
+   "youth"
+  ]
+ ],
+ "aic_rhead_2": [
+  "statue",
+  1.0,
+  [
+   "head",
+   "youth"
+  ]
+ ],
+ "aic_rhead_3": [
+  "statue",
+  1.0,
+  [
+   "head",
+   "emperor"
+  ]
+ ],
+ "aic_rhead_4": [
+  "statue",
+  1.0,
+  [
+   "head",
+   "youth",
+   "emperor"
+  ]
+ ],
+ "aic_rhead_6": [
+  "statue",
+  1.0,
+  [
+   "head"
+  ]
+ ],
+ "aic_philo_7": [
+  "statue",
+  1.0,
+  [
+   "head",
+   "philosopher",
+   "old"
+  ]
+ ],
+ "aic_stoic_1": [
+  "statue",
+  1.0,
+  [
+   "head",
+   "philosopher",
+   "seneca"
+  ]
+ ],
+ "aic_eagle_9": [
+  "statue",
+  1.0,
+  [
+   "eagle",
+   "emperor"
+  ]
+ ],
+ "aic_herc_9": [
+  "print",
+  1.0,
+  [
+   "strength",
+   "struggle",
+   "hero"
+  ]
+ ],
+ "aic_herc_0": [
+  "print",
+  1.0,
+  [
+   "struggle",
+   "beast"
+  ]
+ ],
+ "aic_herc_5": [
+  "print",
+  1.0,
+  [
+   "battle",
+   "warrior"
+  ]
+ ],
+ "aic_atlas_2": [
+  "print",
+  1.0,
+  [
+   "battle",
+   "warrior"
+  ]
+ ],
+ "aic_battle_0": [
+  "print",
+  1.0,
+  [
+   "battle",
+   "death"
+  ]
+ ],
+ "aic_battle_4": [
+  "print",
+  1.0,
+  [
+   "battle",
+   "warrior"
+  ]
+ ],
+ "aic_battle_6": [
+  "print",
+  1.0,
+  [
+   "battle",
+   "struggle"
+  ]
+ ],
+ "aic_death_1": [
+  "print",
+  1.0,
+  [
+   "death",
+   "battle",
+   "horse"
+  ]
+ ],
+ "aic_death_4": [
+  "print",
+  1.0,
+  [
+   "bull",
+   "beast"
+  ]
+ ],
+ "aic_ruins_0": [
+  "print",
+  1.0,
+  [
+   "ruins",
+   "time"
+  ]
+ ],
+ "aic_ruins_1": [
+  "print",
+  1.0,
+  [
+   "ruins",
+   "time"
+  ]
+ ],
+ "aic_ruins_2": [
+  "print",
+  1.0,
+  [
+   "prison",
+   "doubt",
+   "ruins"
+  ]
+ ],
+ "aic_ruins_6": [
+  "print",
+  1.0,
+  [
+   "prison",
+   "doubt"
+  ]
+ ],
+ "aic_ruins_7": [
+  "print",
+  1.0,
+  [
+   "prison",
+   "ruins"
+  ]
+ ],
+ "aic_ruins_8": [
+  "print",
+  1.0,
+  [
+   "ruins",
+   "time",
+   "death"
+  ]
+ ],
+ "aic_ruins_5": [
+  "print",
+  1.0,
+  [
+   "battle",
+   "struggle"
+  ]
+ ],
+ "aic_colos_8": [
+  "print",
+  1.0,
+  [
+   "ruins",
+   "time"
+  ]
+ ],
+ "aic_temple_0": [
+  "print",
+  1.0,
+  [
+   "ruins",
+   "time"
+  ]
+ ],
+ "aic_temple_2": [
+  "print",
+  1.0,
+  [
+   "ruins",
+   "time"
+  ]
+ ],
+ "aic_temple_8": [
+  "print",
+  1.0,
+  [
+   "ruins",
+   "time"
+  ]
+ ],
+ "aic_mount_9": [
+  "print",
+  1.0,
+  [
+   "storm",
+   "struggle"
+  ]
+ ],
+ "aic_sea_0": [
+  "print",
+  1.0,
+  [
+   "storm",
+   "doubt"
+  ]
+ ],
+ "aic_spart_0": [
+  "print",
+  1.0,
+  [
+   "spartan",
+   "athlete",
+   "youth"
+  ]
+ ],
+ "aic_gladi_4": [
+  "print",
+  1.0,
+  [
+   "gladiator",
+   "battle",
+   "warrior"
+  ]
+ ],
+ "aic_stoic_2": [
+  "print",
+  1.0,
+  [
+   "philosopher",
+   "seneca",
+   "old"
+  ]
+ ],
+ "aic_stoic_4": [
+  "print",
+  1.0,
+  [
+   "philosopher",
+   "seneca",
+   "old"
+  ]
+ ],
+ "aic_skull_0": [
+  "print",
+  1.0,
+  [
+   "death",
+   "time"
+  ]
+ ],
+ "aic_warr_2": [
+  "print",
+  1.0,
+  [
+   "warrior",
+   "armor"
+  ]
+ ],
+ "aic_warr_8": [
+  "print",
+  1.0,
+  [
+   "struggle",
+   "doubt"
+  ]
+ ],
+ "aic_philo_5": [
+  "print",
+  1.0,
+  [
+   "philosopher",
+   "old"
+  ]
+ ],
+ "aic_philo_6": [
+  "print",
+  1.0,
+  [
+   "doubt"
+  ]
+ ],
+ "aic_colos_1": [
+  "print",
+  1.0,
+  [
+   "doubt",
+   "time",
+   "philosopher"
+  ]
  ]
 }

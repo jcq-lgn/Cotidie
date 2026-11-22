@@ -182,7 +182,7 @@ def build(script, work):
     return scenes, clips, tcur + 0.15 + script.get("outro", 2.2)
 
 
-def plan_shots(scenes, seed, shot_len=0.72, grid=None):
+def plan_shots(scenes, seed, shot_len=0.72, grid=None, allowed=None):
     """Split every image scene into fast sub-shots cut on word starts."""
     rng = random.Random(seed)
     recent = []
@@ -203,7 +203,10 @@ def plan_shots(scenes, seed, shot_len=0.72, grid=None):
             if c - cuts[-1] > shot_len * 0.6 and sc["_end"] - c > shot_len * 0.45: cuts.append(c)
         primary = sc.get("img")
         tags = set(sc.get("tags") or (LIB[primary][2] if primary in LIB else []))
-        pool = [k for k, v in LIB.items() if tags & set(v[2]) and k != primary and not k.endswith("_sil")]
+        pool = [k for k, v in LIB.items() if tags & set(v[2]) and k != primary and not k.endswith("_sil")
+                and (allowed is None or k in allowed)]
+        if allowed is not None and len(pool) < 2:  # too few in today's selection: widen to the bank
+            pool = [k for k, v in LIB.items() if tags & set(v[2]) and k != primary and not k.endswith("_sil")]
         for j, c in enumerate(cuts):
             if j == 0 and primary:
                 key = primary
@@ -453,7 +456,8 @@ def render(script_path, out_path, workers=4):
         grid = [b - music_offset for b in bl if 0 <= b - music_offset <= total]
     else:
         grid = [drop_t + k * beat_s for k in range(-int(drop_t / beat_s), int((total - drop_t) / beat_s) + 1)]
-    plan_shots(scenes, script.get("seed", 1), shot_len=script.get("beats_per_shot", 2) * beat_s, grid=grid)
+    plan_shots(scenes, script.get("seed", 1), shot_len=script.get("beats_per_shot", 2) * beat_s, grid=grid,
+               allowed=set(script["pool"]) if script.get("pool") else None)
     outro_t = scenes[-1]["_end"]
     kw = [tok[2] for sc in scenes for tok in sc["_tokens"] if tok[1] != "plain"]
     events = [dict(t=0.0, kind="hit"), dict(t=outro_t, kind="hit")]

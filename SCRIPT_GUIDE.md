@@ -21,6 +21,7 @@ Exemple complet : `videos/001_milon_revolt.json`.
  "cover_label": "petite ligne en haut (date, époque, nom)",
  "cover_img": "clé de l'image la plus forte de la banque pour la couverture",
  "music": {"file": "music/revolt/music.wav", "beats": "music/revolt/beats.json", "offset": 0.51},
+ "pool": ["... recopier la liste pool de scripts/today.py ..."],
  "scenes": [ { "t": "texte lu", ... }, ... ]
 }
 ```
@@ -47,30 +48,41 @@ Modèle de référence (vidéo 001) :
 
 Pas de listes, pas de « Pas d'appli. Pas de coach. » en rafale, pas plus d'un emoji, pas de hashtags dans la description (ils vont dans `hashtags`).
 
-## Banque d'images (tags → clés)
+## Banque d'images (121 images) et sélection du jour
+`python3 scripts/today.py` donne la **sélection du jour** (`pool`, ~45 images, différente chaque jour) et son classement par thème (`by_tag`).
+**Choisir les `img` uniquement dans `pool`** et recopier la liste `pool` telle quelle dans le JSON (champ `"pool"`) : les plans rapides seront tirés de cette sélection, ce qui évite de revoir les mêmes statues d'une vidéo à l'autre.
+
+Banque complète (pour information) :
 - `anger` : marcus_7, roman_2
-- `armor` : armor_0, armor_7, helmet_0, helmet_3, helmet_6
-- `athlete` : athlete_1, diad_2, protes_0
-- `battle` : battle_4, battle_6, sarc_6
-- `beast` : bull_1, bull_4, greek_0, labors_3, labors_6, lionfight_1
-- `bull` : bull_1, bull_4, labors_6
-- `death` : hourglass_3, skull_1, skull_5
-- `doubt` : bronze_2, melen_0, titan_0
-- `emperor` : emperor_1, marcus_7, roman_0, roman_2, roman_3, roman_4
-- `head` : emperor_1, marcus_7, philo_1, philo_5, philo_6, roman_0, roman_2, roman_3, roman_4, roman_5
-- `hero` : goltz_0, goltz_3, herc_0, herc_1, hercprint_7
-- `lion` : greek_0, lionfight_1
+- `armor` : aic_armr_1, aic_armr_3, aic_armr_4, aic_armr_5, aic_armr_8, aic_armr_9, aic_helm_1, aic_helm_3, aic_helm_5, aic_helm_6, aic_helm_7, aic_helm_9, aic_shield_2, aic_shield_6, aic_warr_2, armor_0, armor_7, helmet_0, helmet_3, helmet_6
+- `athlete` : aic_athl_4, aic_spart_0, athlete_1, diad_2, protes_0
+- `battle` : aic_atlas_2, aic_battle_0, aic_battle_4, aic_battle_6, aic_death_1, aic_gladi_4, aic_herc_5, aic_horse_4, aic_ruins_5, battle_4, battle_6, sarc_6
+- `beast` : aic_death_4, aic_herc_0, aic_horse_1, aic_horse_3, aic_horse_8, aic_horse_9, aic_lion_1, aic_lion_2, bull_1, bull_4, greek_0, labors_3, labors_6, lionfight_1
+- `bull` : aic_death_4, bull_1, bull_4, labors_6
+- `death` : aic_battle_0, aic_death_1, aic_ruins_8, aic_skull_0, hourglass_3, skull_1, skull_5
+- `doubt` : aic_bronzefig_5, aic_colos_1, aic_philo_6, aic_ruins_2, aic_ruins_6, aic_sea_0, aic_warr_8, bronze_2, melen_0, titan_0
+- `eagle` : aic_eagle_9
+- `emperor` : aic_eagle_9, aic_rhead_3, aic_rhead_4, emperor_1, marcus_7, roman_0, roman_2, roman_3, roman_4
+- `gladiator` : aic_gladi_4
+- `head` : aic_philo_7, aic_rhead_1, aic_rhead_2, aic_rhead_3, aic_rhead_4, aic_rhead_6, aic_stoic_1, emperor_1, marcus_7, philo_1, philo_5, philo_6, roman_0, roman_2, roman_3, roman_4, roman_5
+- `hero` : aic_battle_8, aic_bronzefig_2, aic_herc_3, aic_herc_9, goltz_0, goltz_3, herc_0, herc_1, hercprint_7
+- `horse` : aic_armr_1, aic_death_1, aic_horse_1, aic_horse_3, aic_horse_4, aic_horse_9
+- `lion` : aic_horse_8, aic_lion_0, aic_lion_1, aic_lion_2, greek_0, lionfight_1
 - `milo` : milo_4
-- `old` : philo_1, roman_5
-- `philosopher` : bronze_2, philo_1, philo_2, philo_5, philo_6, roman_5
-- `prison` : titan_0
+- `old` : aic_athl_5, aic_philo_5, aic_philo_7, aic_stoic_2, aic_stoic_4, philo_1, roman_5
+- `philosopher` : aic_athl_5, aic_bronzefig_5, aic_colos_1, aic_philo_5, aic_philo_7, aic_stoic_1, aic_stoic_2, aic_stoic_4, bronze_2, philo_1, philo_2, philo_5, philo_6, roman_5
+- `prison` : aic_ruins_2, aic_ruins_6, aic_ruins_7, titan_0
+- `ruins` : aic_colos_8, aic_ruins_0, aic_ruins_1, aic_ruins_2, aic_ruins_7, aic_ruins_8, aic_temple_0, aic_temple_2, aic_temple_8
+- `seneca` : aic_stoic_1, aic_stoic_2, aic_stoic_4
 - `silhouette` : protes_0_sil
-- `strength` : atlas_1, diad_2, goltz_0, goltz_3, herc_0, herc_1, hercprint_7, labors_0, lionfight_7
-- `struggle` : labors_0, labors_3, labors_6, lionfight_1, lionfight_7, milo_4, sarc_6, titan_2
-- `time` : hourglass_3, melen_0, skull_1, titan_0
-- `warrior` : armor_0, armor_7, battle_4, battle_6, helmet_0, helmet_3, helmet_6, hourglass_3, protes_0, sword_2, sword_4
-- `weapon` : sword_2, sword_4
+- `spartan` : aic_spart_0
+- `storm` : aic_mount_9, aic_sea_0
+- `strength` : aic_athl_4, aic_battle_8, aic_battle_9, aic_bronzefig_2, aic_herc_3, aic_herc_9, aic_lion_0, aic_wrest_4, atlas_1, diad_2, goltz_0, goltz_3, herc_0, herc_1, hercprint_7, labors_0, lionfight_7
+- `struggle` : aic_battle_6, aic_battle_8, aic_battle_9, aic_herc_0, aic_herc_9, aic_horse_1, aic_horse_8, aic_lion_0, aic_mount_9, aic_ruins_5, aic_warr_8, aic_wrest_4, labors_0, labors_3, labors_6, lionfight_1, lionfight_7, milo_4, sarc_6, titan_2
+- `time` : aic_colos_1, aic_colos_8, aic_ruins_0, aic_ruins_1, aic_ruins_8, aic_skull_0, aic_temple_0, aic_temple_2, aic_temple_8, hourglass_3, melen_0, skull_1, titan_0
+- `warrior` : aic_armr_1, aic_armr_3, aic_armr_4, aic_armr_5, aic_armr_9, aic_atlas_2, aic_battle_4, aic_gladi_4, aic_helm_1, aic_helm_3, aic_helm_5, aic_helm_6, aic_helm_7, aic_helm_9, aic_herc_5, aic_shield_2, aic_shield_6, aic_swd_3, aic_swd_4, aic_swd_7, aic_swd_8, aic_warr_2, armor_0, armor_7, battle_4, battle_6, helmet_0, helmet_3, helmet_6, hourglass_3, protes_0, sword_2, sword_4
+- `weapon` : aic_armr_8, aic_swd_3, aic_swd_4, aic_swd_7, aic_swd_8, sword_2, sword_4
 - `weight` : atlas_1, titan_2
-- `youth` : athlete_1, roman_0
+- `youth` : aic_rhead_1, aic_rhead_2, aic_rhead_4, aic_spart_0, athlete_1, roman_0
 
 Si une histoire demande une image absente (ex. un objet précis), réutiliser les tags existants plutôt que d'en télécharger : la DA et la qualité des détourages ont été validées sur cette banque.

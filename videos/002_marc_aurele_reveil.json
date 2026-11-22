@@ -1,0 +1,33 @@
+{
+ "title": "L'empereur qui avait du mal à se lever (Marc Aurèle)",
+ "brand": "COTIDIE",
+ "description": "Il y a 1900 ans, l'homme le plus puissant du monde avait du mal à se lever le matin. Il se répétait une seule phrase… et il se levait. 🏛️ Et vous, qu'est-ce qui vous sort du lit ?",
+ "hashtags": ["#stoicisme", "#marcaurele", "#motivation", "#discipline", "#routinematinale", "#mindset", "#rome", "#philosophie", "#developpementpersonnel"],
+ "cover_title": "L'EMPEREUR QUI NE VOULAIT PAS SE *LEVER*",
+ "cover_label": "Marc Aurèle · 170 ap. J.-C.",
+ "cover_img": "emperor_1",
+ "music": {"file": "music/revolt/music.wav", "beats": "music/revolt/beats.json", "offset": 0.51},
+ "scenes": [
+  {"t": "L'homme le plus puissant du monde", "img": "emperor_1", "label": "ROME · 170 AP. J.-C.", "hit": true},
+  {"t": "avait du mal à se lever le matin.", "img": "melen_0", "bg": "blue", "join": true, "drop": true},
+  {"t": "Il s'appelait *Marc Aurèle.*", "img": "roman_4", "label": "MARC AURÈLE"},
+  {"t": "Empereur de Rome.", "img": "roman_3", "tag": "IMPERATOR"},
+  {"t": "Il commandait des *légions,*", "img": "battle_4", "tags": ["warrior", "armor"]},
+  {"t": "il gouvernait des millions d'hommes…", "img": "sarc_6", "tags": ["battle", "emperor"], "join": true},
+  {"t": "et pourtant, chaque matin, il devait se battre contre ^son lit.^", "img": "bronze_2", "bg": "blue", "hit": true},
+  {"t": "Alors il a écrit une phrase pour lui-même.", "img": "philo_6", "tags": ["philosopher"]},
+  {"t": "On la lit encore aujourd'hui, dans ses *Pensées.*", "img": "philo_5", "tags": ["philosopher", "head"]},
+  {"t": "« Au point du jour, quand tu as peine à te réveiller,", "img": "roman_5", "bg": "light", "tags": ["philosopher"]},
+  {"t": "dis-toi : c'est pour faire *œuvre d'homme* que je m'éveille. »", "img": "philo_1", "bg": "light", "join": true, "tags": ["philosopher"]},
+  {"t": "Et il ajoutait :", "img": "emperor_1"},
+  {"t": "« Ai-je été fait pour rester couché sous mes couvertures, *au chaud ?* »", "img": "melen_0", "tags": ["doubt"], "tag": "SURGE"},
+  {"t": "Personne ne viendra vous tirer du lit.", "img": "titan_2", "tags": ["weight", "struggle"]},
+  {"t": "Pas la motivation. Pas l'envie.", "img": "hourglass_3", "tags": ["time", "death"]},
+  {"t": "Seulement une *raison.*", "big": "1 RAISON", "bg": "blue", "hit": true},
+  {"t": "Demain, quand le réveil sonne,", "img": "roman_2", "tags": ["anger", "emperor"]},
+  {"t": "posez un pied par terre,", "img": "athlete_1", "tags": ["athlete"], "join": true},
+  {"t": "et dites-vous : je me lève pour faire *mon travail d'homme.*", "img": "herc_1", "tags": ["strength", "hero"], "join": true},
+  {"t": "Un empereur le faisait chaque matin.", "img": "roman_3", "tags": ["emperor"]},
+  {"t": "Vous pouvez le faire ^aussi.^", "img": "protes_0_sil", "bg": "blue", "hit": true, "hold": true}
+ ]
+}

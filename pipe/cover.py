@@ -48,37 +48,40 @@ def make(script, out):
     img = bg()
     key = script.get("cover_img") or next(s["img"] for s in script["scenes"] if s.get("img") and not s["img"].endswith("_sil"))
     sub = asset(key)
-    k = min(1000 / sub.width, 1050 / sub.height)
+    # TikTok crops the cover to 3:4 (1080x1440, centred: y 240-1680). Keep everything inside.
+    k = min(860 / sub.width, 780 / sub.height)
     sub = sub.resize((int(sub.width * k), int(sub.height * k)), Image.LANCZOS)
-    img.alpha_composite(sub, (W // 2 - sub.width // 2, 330))
+    img.alpha_composite(sub, (W // 2 - sub.width // 2, 400 + (780 - sub.height) // 2))
     # dark fade under the title
-    fade = Image.new("RGBA", (W, 760), (0, 0, 0, 0))
+    fade = Image.new("RGBA", (W, 820), (0, 0, 0, 0))
     fd = ImageDraw.Draw(fade)
-    for y in range(760):
-        fd.line([(0, y), (W, y)], fill=(4, 6, 10, int(250 * min(1, y / 300))))
-    img.alpha_composite(fade, (0, H - 760))
+    for y in range(820):
+        fd.line([(0, y), (W, y)], fill=(4, 6, 10, int(245 * min(1, y / 260))))
+    img.alpha_composite(fade, (0, H - 820))
     d = ImageDraw.Draw(img)
     label = script.get("cover_label")
     if label:
-        f = ImageFont.truetype(ANTON, 52)
+        f = ImageFont.truetype(ANTON, 46)
         sp = " ".join(label.upper())
+        while f.getlength(sp) > 760 and f.size > 30:
+            f = ImageFont.truetype(ANTON, f.size - 2)
         tw = f.getlength(sp)
-        d.text((W / 2, 220), sp, font=f, fill=WHITE, anchor="mm")
-        d.line([(W / 2 - tw / 2 - 190, 220), (W / 2 - tw / 2 - 30, 220)], fill=ICE, width=4)
-        d.line([(W / 2 + tw / 2 + 30, 220), (W / 2 + tw / 2 + 190, 220)], fill=ICE, width=4)
+        d.text((W / 2, 330), sp, font=f, fill=WHITE, anchor="mm")
+        d.line([(max(70, W / 2 - tw / 2 - 150), 330), (W / 2 - tw / 2 - 30, 330)], fill=ICE, width=4)
+        d.line([(W / 2 + tw / 2 + 30, 330), (min(W - 70, W / 2 + tw / 2 + 150), 330)], fill=ICE, width=4)
     title = script.get("cover_title") or script.get("title", "").upper()
     words = []
     for part in re.split(r"(\*[^*]+\*)", title):
         acc = part.startswith("*")
         words += [(w, acc) for w in part.strip("*").split()]
-    size = 150
+    size = 132
     while True:
         f = ImageFont.truetype(ANTON, size)
-        lines = wrap(words, f, 960)
-        if len(lines) <= 3 or size <= 96: break
-        size -= 8
+        lines = wrap(words, f, 900)
+        if (len(lines) <= 3 and len(lines) * size * 1.08 <= 400) or size <= 80: break
+        size -= 6
     lh = int(size * 1.08)
-    y0 = 1500 - (len(lines) - 1) * lh / 2
+    y0 = 1420 - (len(lines) - 1) * lh / 2
     sh = Image.new("RGBA", (W, H), (0, 0, 0, 0)); sd = ImageDraw.Draw(sh)
     for i, line in enumerate(lines):
         txt = " ".join(w for w, _ in line)
@@ -94,7 +97,7 @@ def make(script, out):
             d.text((x, y0 + i * lh), w, font=f, fill=ICE if acc else WHITE, anchor="lm")
             x += f.getlength(w + " ")
     hf = ImageFont.truetype(f"{S}/fonts/montserrat-latin-800-normal.ttf", 38)
-    d.text((W / 2, 1800), "@cotidie.mentalite", font=hf, fill=(160, 180, 195), anchor="mm")
+    d.text((W / 2, 1640), "@cotidie.mentalite", font=hf, fill=(160, 180, 195), anchor="mm")
     img.convert("RGB").save(out, quality=94)
 
 

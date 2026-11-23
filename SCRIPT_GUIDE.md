@@ -13,6 +13,8 @@ Exemple complet : `videos/001_milon_revolt.json`.
   - 1re scène = l'image la plus forte (visage de statue, regard), jamais une silhouette sombre ;
   - 1re phrase = un fait choc ou une question, ≤ 8 mots si possible ;
   - champ `hook` : 4 à 8 mots en MAJUSCULES affichés en haut dès la 1re image (1 mot-clé entre *étoiles*). Par défaut = `cover_title`.
+- **Relance à mi-vidéo** (vers 12-18 s) : une phrase de rupture qui relance l'attention (« Mais le plus fou, c'est… », « Et c'est là que tout bascule. »), avec `hit: true` et un fond `blue`.
+- Public (statistiques TikTok) : surtout 25-34 ans puis 18-24 ans, France/Belgique/Suisse. Ancrer la leçon dans leur quotidien : travail, procrastination, salle de sport après le boulot, réveil, téléphone, argent, constance.
 - Fin : terminer sur une phrase qui donne envie de revoir le début (boucle) ; l'écran de fin ne dure qu'1 s.
 
 ## Format JSON

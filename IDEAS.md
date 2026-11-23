@@ -30,3 +30,12 @@
 - [ ] Marc Aurèle : « Tu as le pouvoir sur ton esprit, pas sur les événements »
 - [ ] Les bains froids romains (frigidarium) et la discipline du froid
 - [ ] Ulysse et les sirènes : s'attacher au mât, la discipline contre la tentation
+- [ ] Sénèque et le temps volé : « On ne vous vole pas votre temps, vous le donnez » (téléphone, réseaux)
+- [ ] Épictète sur la procrastination : « Jusqu'à quand attendras-tu pour exiger de toi le meilleur ? »
+- [ ] Les légionnaires s'entraînaient avec des armes deux fois plus lourdes que celles du combat
+- [ ] Marc Aurèle sur les gens difficiles au travail : « Dès l'aurore, dis-toi : je rencontrerai un indiscret, un ingrat… »
+- [ ] Goggins et le miroir des responsabilités : les post-it sur le miroir
+- [ ] Sénèque, l'homme le plus riche de Rome, qui s'entraînait à être pauvre
+- [ ] Caton l'Ancien apprend le grec à 80 ans : il n'est jamais trop tard pour commencer
+- [ ] Les Spartiates et le laconisme : parler moins, agir plus
+

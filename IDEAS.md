@@ -6,7 +6,7 @@
 - [ ] Les gladiateurs « hordearii » : les mangeurs d'orge, des athlètes et pas des héros de films
 - [ ] L'agogé spartiate : entraînés dès 7 ans, la souffrance comme école
 - [ ] Sénèque : « Ce n'est pas que nous ayons peu de temps, c'est que nous en perdons beaucoup »
-- [ ] Le « cookie jar » de Goggins : la liste de vos victoires passées
+- [ ] Les Romains gravaient leurs victoires dans la pierre (arcs de triomphe, colonne Trajane) : la liste de vos victoires passées pour tenir dans les moments durs
 - [ ] Épictète, esclave devenu philosophe : ce qui dépend de vous et ce qui n'en dépend pas
 - [ ] Memento mori : l'esclave qui murmurait au général pendant son triomphe
 - [ ] Caton d'Utique marchait pieds nus et tête nue pour s'endurcir
@@ -18,7 +18,7 @@
 - [ ] Hercule à la croisée des chemins : le vice facile ou la vertu difficile
 - [ ] Les légions romaines : 30 km de marche par jour avec 30 kg sur le dos
 - [ ] Marc Aurèle, empereur le plus puissant du monde, qui écrivait pour se corriger lui-même
-- [ ] Goggins : de 135 kg à Navy SEAL
+- [ ] Glaucos de Carystos, le laboureur qui redressa un soc de charrue à coups de poing et devint champion olympique de pugilat (Pausanias, VI)
 - [ ] Le stoïcien et l'obstacle : « L'obstacle à l'action fait avancer l'action »
 - [ ] Les Jeux olympiques antiques : 10 mois d'entraînement obligatoire avant de concourir
 - [ ] Cincinnatus : le dictateur qui rendit le pouvoir pour retourner à sa charrue
@@ -34,7 +34,7 @@
 - [ ] Épictète sur la procrastination : « Jusqu'à quand attendras-tu pour exiger de toi le meilleur ? »
 - [ ] Les légionnaires s'entraînaient avec des armes deux fois plus lourdes que celles du combat
 - [ ] Marc Aurèle sur les gens difficiles au travail : « Dès l'aurore, dis-toi : je rencontrerai un indiscret, un ingrat… »
-- [ ] Goggins et le miroir des responsabilités : les post-it sur le miroir
+- [ ] Sénèque et l'examen du soir : chaque nuit, il passait sa journée en revue sans se mentir (De la colère, III, 36)
 - [ ] Sénèque, l'homme le plus riche de Rome, qui s'entraînait à être pauvre
 - [ ] Caton l'Ancien apprend le grec à 80 ans : il n'est jamais trop tard pour commencer
 - [ ] Les Spartiates et le laconisme : parler moins, agir plus

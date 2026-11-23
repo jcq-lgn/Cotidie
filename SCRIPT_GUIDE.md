@@ -5,6 +5,7 @@ Exemple complet : `videos/001_milon_revolt.json`.
 
 ## Fond
 - Niche : motivation, discipline, stoïcisme, musculation. Histoires **vraies** et vérifiables : Antiquité (Rome, Grèce, Sparte), philosophes stoïciens (Marc Aurèle, Sénèque, Épictète), athlètes antiques, et figures modernes de la discipline (David Goggins, etc.) citées sans montrer leur visage.
+- **Les images doivent coller au sujet.** La banque ne contient que des œuvres antiques : chaque vidéo raconte une histoire antique (personnage, lieu, objet visibles dans la banque). Une figure moderne (Goggins…) ne peut être qu'un clin d'œil d'une phrase, jamais le sujet. Si l'idée du jour est moderne, la raconter à travers un équivalent antique.
 - Exactitude : pas de fausse citation ni de chiffre inventé. En cas de doute, formuler « la légende raconte… ».
 - **Vouvoiement**. Phrases courtes, rythmées, qui se terminent par un appel à l'action concret.
 - Structure : accroche choc en 1 phrase (≤ 3 s) → histoire → leçon → application concrète « aujourd'hui… » → chute forte.

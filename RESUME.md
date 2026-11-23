@@ -26,4 +26,5 @@ Noir bleuté, marbre froid, accent bleu glacé ; fonds `dark` / `light` (marbre)
 - Tableau de bord en direct : **Cotidie Stats** https://claude.ai/artifact/HTdAxmG92XjTih9wN7Zc1C (requêtes sur 30 jours : l'essai Windsor ne donne pas plus d'historique)
 - Bilan quotidien : demander « fais le point de la vidéo d'hier » dans une conversation (avec ce dépôt).
 - 001 Milon (48 s) : 518 vues, 8,7 s, 2,7 % jusqu'au bout. 002 Marc Aurèle (41 s) : 1 234 vues, 13,1 s, 4,6 %, 74 % à 1 s.
+- 23/11 : TikTok a boosté la 001 (+284 vues) car jugée « utile » → chaque vidéo finit par une action précise faisable aujourd'hui (voir `SCRIPT_GUIDE.md`).
 - Leçons : la 1re seconde décide (image forte + accroche écrite dès 0 s), vidéos 30-40 s, relance à mi-vidéo, épingler la question en commentaire.

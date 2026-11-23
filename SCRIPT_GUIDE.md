@@ -15,6 +15,7 @@ Exemple complet : `videos/001_milon_revolt.json`.
   - champ `hook` : 4 à 8 mots en MAJUSCULES affichés en haut dès la 1re image (1 mot-clé entre *étoiles*). Par défaut = `cover_title`.
 - **Relance à mi-vidéo** (vers 12-18 s) : une phrase de rupture qui relance l'attention (« Mais le plus fou, c'est… », « Et c'est là que tout bascule. »), avec `hit: true` et un fond `blue`.
 - Public (statistiques TikTok) : surtout 25-34 ans puis 18-24 ans, France/Belgique/Suisse. Ancrer la leçon dans leur quotidien : travail, procrastination, salle de sport après le boulot, réveil, téléphone, argent, constance.
+- **Contenu « utile » = boost TikTok.** La 001 (Milon) a reçu +284 vues gratuites parce que « les spectateurs l'ont trouvée très utile ». Chaque vidéo doit donc laisser **une action précise, faisable aujourd'hui, en moins de 5 minutes**, formulée comme une consigne (« Ce soir, notez 3 victoires passées. », « Demain, réglez le réveil 15 min plus tôt et levez-vous au 1er son. »). Pas une morale vague (« Soyez discipliné »). Placer cette consigne juste avant la chute, avec `tag` (ex. « À FAIRE ») ou `big`. L'histoire reste le cœur de la vidéo ; la consigne en est la conséquence directe.
 - Fin : terminer sur une phrase qui donne envie de revoir le début (boucle) ; l'écran de fin ne dure qu'1 s.
 
 ## Format JSON
@@ -50,6 +51,7 @@ Exactement 3 temps, 2 à 3 phrases au total, 25 à 40 mots :
 1. **Accroche** : un fait historique précis et intrigant (époque/chiffre + personnage + promesse), ex. « Il y a 2500 ans, un lutteur grec a découvert le seul secret de la force qui marche encore aujourd'hui. »
 2. **Chute courte** avec points de suspension, qui révèle le secret sans tout dire, ex. « Juste un veau… et de la constance. »
 3. **Un emoji 🏛️** puis **une question courte au vouvoiement** qui pousse à commenter, ex. « Vous ajoutez quoi aujourd'hui ? »
+   La question renvoie de préférence à l'action donnée dans la vidéo (« Vous commencez ce soir ? », « Quelle est votre 1re victoire ? »).
 
 Modèle de référence (vidéo 001) :
 > Il y a 2500 ans, un lutteur grec a découvert le seul secret de la force qui marche encore aujourd'hui. Juste un veau… et de la constance. 🏛️ Vous ajoutez quoi aujourd'hui ?

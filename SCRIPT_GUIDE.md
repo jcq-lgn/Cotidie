@@ -59,6 +59,9 @@ Modèle de référence (vidéo 001) :
 
 Pas de listes, pas de « Pas d'appli. Pas de coach. » en rafale, pas plus d'un emoji, pas de hashtags dans la description (ils vont dans `hashtags`).
 
+## Nudité : interdite
+La vidéo 001 (Milon) a été **supprimée par la modération automatique de TikTok** le 23/11/2026 : sa couverture et sa 1re image montraient des lutteurs nus. Les images à nudité intégrale sont listées dans `library_exclus.json` et retirées de la rotation. Ne jamais les choisir en `img` ni en `cover_img`. Préférer les bustes, têtes, armures, armes, ruines, animaux, statues drapées ou coupées à la taille.
+
 ## Banque d'images (121 images) et sélection du jour
 `python3 scripts/today.py` donne la **sélection du jour** (`pool`, ~45 images, différente chaque jour) et son classement par thème (`by_tag`).
 **Choisir les `img` uniquement dans `pool`** et recopier la liste `pool` telle quelle dans le JSON (champ `"pool"`) : les plans rapides seront tirés de cette sélection, ce qui évite de revoir les mêmes statues d'une vidéo à l'autre.

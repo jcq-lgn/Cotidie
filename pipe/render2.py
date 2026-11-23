@@ -27,6 +27,7 @@ INK = (8, 10, 14)
 CAP_Y = 1240  # TikTok safe zone: above the description area
 HANDLE = "@cotidie.mentalite"
 LIB = json.load(open(f"{S}/library.json"))
+EXCLUS = set(json.load(open(f"{S}/library_exclus.json"))["exclus"])  # nudité : jamais en plan rapide
 PRINT_KEYS = {k for k, v in LIB.items() if v[0] == "print"}
 
 
@@ -203,10 +204,10 @@ def plan_shots(scenes, seed, shot_len=0.72, grid=None, allowed=None):
             if c - cuts[-1] > shot_len * 0.6 and sc["_end"] - c > shot_len * 0.45: cuts.append(c)
         primary = sc.get("img")
         tags = set(sc.get("tags") or (LIB[primary][2] if primary in LIB else []))
-        pool = [k for k, v in LIB.items() if tags & set(v[2]) and k != primary and not k.endswith("_sil")
+        pool = [k for k, v in LIB.items() if tags & set(v[2]) and k != primary and not k.endswith("_sil") and k not in EXCLUS
                 and (allowed is None or k in allowed)]
         if allowed is not None and len(pool) < 2:  # too few in today's selection: widen to the bank
-            pool = [k for k, v in LIB.items() if tags & set(v[2]) and k != primary and not k.endswith("_sil")]
+            pool = [k for k, v in LIB.items() if tags & set(v[2]) and k != primary and not k.endswith("_sil") and k not in EXCLUS]
         for j, c in enumerate(cuts):
             if j == 0 and primary:
                 key = primary

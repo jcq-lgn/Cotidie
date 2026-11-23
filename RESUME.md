@@ -27,4 +27,5 @@ Noir bleuté, marbre froid, accent bleu glacé ; fonds `dark` / `light` (marbre)
 - Bilan quotidien : demander « fais le point de la vidéo d'hier » dans une conversation (avec ce dépôt).
 - 001 Milon (48 s) : 518 vues, 8,7 s, 2,7 % jusqu'au bout. 002 Marc Aurèle (41 s) : 1 234 vues, 13,1 s, 4,6 %, 74 % à 1 s.
 - 23/11 : TikTok a boosté la 001 (+284 vues) car jugée « utile » → chaque vidéo finit par une action précise faisable aujourd'hui (voir `SCRIPT_GUIDE.md`).
+- 23/11 : la 001 a été **supprimée** par la modération automatique (lutteurs nus en couverture). Images nues exclues via `library_exclus.json`.
 - Leçons : la 1re seconde décide (image forte + accroche écrite dès 0 s), vidéos 30-40 s, relance à mi-vidéo, épingler la question en commentaire.

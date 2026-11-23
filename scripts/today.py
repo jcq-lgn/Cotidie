@@ -18,7 +18,8 @@ n = (today - START).days + 1
 ideas = [re.sub(r"^- \[[ x]\]\s*(\d{3}\s*)?", "", l).strip()
          for l in open(os.path.join(here, "IDEAS.md"), encoding="utf-8") if re.match(r"^- \[[ x]\]", l)]
 lib = json.load(open(os.path.join(here, "library.json")))
-keys = sorted(k for k in lib if not k.endswith("_sil"))
+exclus = set(json.load(open(os.path.join(here, "library_exclus.json")))["exclus"])
+keys = sorted(k for k in lib if not k.endswith("_sil") and k not in exclus)
 random.Random(2026).shuffle(keys)          # fixed order, then a sliding window per day
 start = ((n - 1) * POOL) % len(keys)
 pool = [keys[(start + i) % len(keys)] for i in range(POOL)] + ["protes_0_sil"]

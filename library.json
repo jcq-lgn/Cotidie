@@ -987,5 +987,379 @@
    "time",
    "philosopher"
   ]
+ ],
+ "a2_gladb_5": [
+  "print",
+  1.0,
+  [
+   "arena",
+   "gladiator",
+   "ruins"
+  ]
+ ],
+ "a2_gladb_6": [
+  "print",
+  1.0,
+  [
+   "arena",
+   "gladiator"
+  ]
+ ],
+ "a2_colos_2": [
+  "print",
+  1.0,
+  [
+   "arena",
+   "gladiator",
+   "ruins"
+  ]
+ ],
+ "a2_colos_5": [
+  "print",
+  1.0,
+  [
+   "arena",
+   "ruins",
+   "time"
+  ]
+ ],
+ "a2_colos_6": [
+  "print",
+  1.0,
+  [
+   "arena",
+   "gladiator",
+   "rome"
+  ]
+ ],
+ "a2_colos_7": [
+  "print",
+  1.0,
+  [
+   "arena",
+   "ruins"
+  ]
+ ],
+ "a2_colos_8": [
+  "print",
+  1.0,
+  [
+   "arena",
+   "gladiator",
+   "rome"
+  ]
+ ],
+ "a2_colos_9": [
+  "print",
+  1.0,
+  [
+   "arena",
+   "rome"
+  ]
+ ],
+ "a2_gladi_0": [
+  "print",
+  1.0,
+  [
+   "gladiator",
+   "warrior"
+  ]
+ ],
+ "a2_trium_0": [
+  "print",
+  1.0,
+  [
+   "triumph",
+   "rome",
+   "battle"
+  ]
+ ],
+ "a2_trium_2": [
+  "print",
+  1.0,
+  [
+   "triumph",
+   "rome"
+  ]
+ ],
+ "a2_trium_4": [
+  "print",
+  1.0,
+  [
+   "triumph",
+   "rome"
+  ]
+ ],
+ "a2_trium_6": [
+  "print",
+  1.0,
+  [
+   "triumph",
+   "rome",
+   "battle"
+  ]
+ ],
+ "a2_trium_9": [
+  "print",
+  1.0,
+  [
+   "triumph",
+   "legion",
+   "warrior"
+  ]
+ ],
+ "a2_arch_0": [
+  "print",
+  1.0,
+  [
+   "triumph",
+   "rome",
+   "ruins"
+  ]
+ ],
+ "a2_arch_2": [
+  "print",
+  1.0,
+  [
+   "triumph",
+   "rome"
+  ]
+ ],
+ "a2_arch_3": [
+  "print",
+  1.0,
+  [
+   "triumph",
+   "rome",
+   "ruins"
+  ]
+ ],
+ "a2_arch_6": [
+  "print",
+  1.0,
+  [
+   "triumph",
+   "rome",
+   "ruins"
+  ]
+ ],
+ "a2_traj_0": [
+  "print",
+  1.0,
+  [
+   "triumph",
+   "rome",
+   "victory"
+  ]
+ ],
+ "a2_traj_1": [
+  "print",
+  1.0,
+  [
+   "triumph",
+   "rome",
+   "victory"
+  ]
+ ],
+ "a2_traj_3": [
+  "print",
+  1.0,
+  [
+   "triumph",
+   "victory",
+   "time"
+  ]
+ ],
+ "a2_senec_1": [
+  "statue",
+  1.0,
+  [
+   "seneca",
+   "philosopher",
+   "head",
+   "old"
+  ]
+ ],
+ "a2_senec_3": [
+  "print",
+  1.0,
+  [
+   "seneca",
+   "death",
+   "philosopher"
+  ]
+ ],
+ "a2_diog_0": [
+  "print",
+  1.0,
+  [
+   "diogenes",
+   "philosopher"
+  ]
+ ],
+ "a2_diog_2": [
+  "print",
+  1.0,
+  [
+   "diogenes",
+   "philosopher",
+   "old"
+  ]
+ ],
+ "a2_diog_4": [
+  "print",
+  1.0,
+  [
+   "diogenes",
+   "philosopher"
+  ]
+ ],
+ "a2_diog_6": [
+  "print",
+  1.0,
+  [
+   "diogenes",
+   "philosopher",
+   "emperor"
+  ]
+ ],
+ "a2_diog_7": [
+  "print",
+  1.0,
+  [
+   "diogenes",
+   "philosopher"
+  ]
+ ],
+ "a2_leon_0": [
+  "print",
+  1.0,
+  [
+   "sparta",
+   "leonidas",
+   "warrior"
+  ]
+ ],
+ "a2_legio_0": [
+  "print",
+  1.0,
+  [
+   "legion",
+   "warrior",
+   "rome"
+  ]
+ ],
+ "a2_legio_1": [
+  "print",
+  1.0,
+  [
+   "legion",
+   "warrior"
+  ]
+ ],
+ "a2_legio_3": [
+  "print",
+  1.0,
+  [
+   "legion",
+   "warrior"
+  ]
+ ],
+ "a2_legio_5": [
+  "print",
+  1.0,
+  [
+   "legion",
+   "battle"
+  ]
+ ],
+ "a2_cinci_0": [
+  "print",
+  1.0,
+  [
+   "cincinnatus",
+   "rome"
+  ]
+ ],
+ "a2_therm_0": [
+  "print",
+  1.0,
+  [
+   "baths",
+   "ruins",
+   "rome"
+  ]
+ ],
+ "a2_therm_1": [
+  "print",
+  1.0,
+  [
+   "baths",
+   "ruins"
+  ]
+ ],
+ "a2_therm_2": [
+  "print",
+  1.0,
+  [
+   "baths",
+   "ruins",
+   "rome"
+  ]
+ ],
+ "a2_rhod_2": [
+  "print",
+  1.0,
+  [
+   "rhodes",
+   "time"
+  ]
+ ],
+ "a2_ulys_4": [
+  "print",
+  1.0,
+  [
+   "ulysses",
+   "siren"
+  ]
+ ],
+ "a2_ulys_5": [
+  "print",
+  1.0,
+  [
+   "ulysses",
+   "achilles"
+  ]
+ ],
+ "a2_ulys_6": [
+  "print",
+  1.0,
+  [
+   "ulysses"
+  ]
+ ],
+ "a2_ulys_9": [
+  "print",
+  1.0,
+  [
+   "ulysses"
+  ]
+ ],
+ "a2_achil_7": [
+  "print",
+  1.0,
+  [
+   "achilles",
+   "ulysses"
+  ]
+ ],
+ "a2_mara_1": [
+  "print",
+  1.0,
+  [
+   "battle",
+   "greek",
+   "warrior"
+  ]
  ]
 }

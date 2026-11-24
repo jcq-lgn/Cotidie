@@ -1,17 +1,26 @@
-# Idées de vidéos (cocher [x] quand publiée — la tâche quotidienne prend la 1re non cochée)
+# Idées de vidéos (ordre = calendrier : 001 le 21/11, une ligne par jour ; {étiquettes} = images du sujet)
 
 - [x] 001 Milon de Crotone : le veau porté chaque jour (surcharge progressive)
 - [ ] Marc Aurèle et le réveil : « Au point du jour, quand tu as du mal à te lever… » (Pensées, livre V) {emperor}
 - [ ] La règle des 40 % de David Goggins : quand vous croyez être au bout, vous n'êtes qu'à 40 %
 - [ ] Les gladiateurs « hordearii » : les mangeurs d'orge, des athlètes et pas des héros de films {gladiator,arena}
+- [ ] Muhammad Ali : « Je détestais chaque minute d'entraînement, mais je me disais : n'abandonne pas. Souffre maintenant et vis le reste de ta vie en champion. » {ali}
 - [ ] L'agogé spartiate : entraînés dès 7 ans, la souffrance comme école {sparta}
+- [ ] Thomas Edison, 67 ans, regarde son usine brûler en décembre 1914 et recommence dès le lendemain {edison}
 - [ ] Sénèque : « Ce n'est pas que nous ayons peu de temps, c'est que nous en perdons beaucoup » {seneca}
+- [ ] Michael Jordan, pas retenu dans l'équipe première de son lycée, qui s'entraîne jusqu'à devenir le meilleur {jordan}
 - [ ] Les Romains gravaient leurs victoires dans la pierre (arcs de triomphe, colonne Trajane) : la liste de vos victoires passées pour tenir dans les moments durs {triumph}
+- [ ] Theodore Roosevelt, l'enfant asthmatique qui s'est forgé un corps, et « l'homme dans l'arène » (discours à la Sorbonne, 1910) {roosevelt}
 - [ ] Épictète, esclave devenu philosophe : ce qui dépend de vous et ce qui n'en dépend pas {philosopher}
+- [ ] Nelson Mandela : 27 ans de prison, le matricule 46664 et le poème « Invictus » {mandela}
 - [ ] Memento mori : l'esclave qui murmurait au général pendant son triomphe {triumph}
+- [ ] Usain Bolt, atteint de scoliose, devenu l'homme le plus rapide du monde {bolt}
 - [ ] Caton d'Utique marchait pieds nus et tête nue pour s'endurcir {philosopher,old}
+- [ ] Marie Curie : deux prix Nobel dans deux sciences, après des années de travail dans un hangar {curie}
 - [ ] Diogène dans son tonneau : l'homme qui n'avait besoin de rien {diogenes}
+- [ ] Jesse Owens : quatre médailles d'or à Berlin en 1936 {owens}
 - [ ] Phidippidès et le marathon : courir jusqu'au bout {battle,athlete}
+- [ ] J. K. Rowling, mère seule sans argent, refusée par une douzaine d'éditeurs avant Harry Potter {rowling}
 - [ ] Léonidas et les 300 aux Thermopyles : « Viens les prendre » {sparta}
 - [ ] Démosthène et les cailloux : le bègue devenu le plus grand orateur d'Athènes {philosopher}
 - [ ] Sénèque et l'exercice de pauvreté volontaire : vivre quelques jours avec presque rien {seneca}

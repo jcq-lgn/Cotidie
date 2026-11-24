@@ -1361,5 +1361,237 @@
    "greek",
    "warrior"
   ]
+ ],
+ "p_ali_0": [
+  "statue",
+  1.0,
+  [
+   "ali",
+   "modern"
+  ]
+ ],
+ "p_ali_2": [
+  "statue",
+  1.0,
+  [
+   "ali",
+   "modern"
+  ]
+ ],
+ "p_ali_4": [
+  "print",
+  1.0,
+  [
+   "ali",
+   "modern"
+  ]
+ ],
+ "p_bolt_0": [
+  "print",
+  1.0,
+  [
+   "bolt",
+   "modern"
+  ]
+ ],
+ "p_bolt_1": [
+  "statue",
+  1.0,
+  [
+   "bolt",
+   "modern"
+  ]
+ ],
+ "p_bolt_3": [
+  "print",
+  1.0,
+  [
+   "bolt",
+   "modern"
+  ]
+ ],
+ "p_bolt_4": [
+  "print",
+  1.0,
+  [
+   "bolt",
+   "modern"
+  ]
+ ],
+ "p_curie_1": [
+  "statue",
+  1.0,
+  [
+   "curie",
+   "modern"
+  ]
+ ],
+ "p_curie_2": [
+  "statue",
+  1.0,
+  [
+   "curie",
+   "modern"
+  ]
+ ],
+ "p_curie_3": [
+  "statue",
+  1.0,
+  [
+   "curie",
+   "modern"
+  ]
+ ],
+ "p_curie_4": [
+  "print",
+  1.0,
+  [
+   "curie",
+   "modern"
+  ]
+ ],
+ "p_edison_0": [
+  "print",
+  1.0,
+  [
+   "edison",
+   "modern"
+  ]
+ ],
+ "p_edison_1": [
+  "statue",
+  1.0,
+  [
+   "edison",
+   "modern"
+  ]
+ ],
+ "p_edison_3": [
+  "print",
+  1.0,
+  [
+   "edison",
+   "modern"
+  ]
+ ],
+ "p_edison_4": [
+  "statue",
+  1.0,
+  [
+   "edison",
+   "modern"
+  ]
+ ],
+ "p_jordan_0": [
+  "statue",
+  1.0,
+  [
+   "jordan",
+   "modern"
+  ]
+ ],
+ "p_jordan_2": [
+  "print",
+  1.0,
+  [
+   "jordan",
+   "modern"
+  ]
+ ],
+ "p_jordan_3": [
+  "statue",
+  1.0,
+  [
+   "jordan",
+   "modern"
+  ]
+ ],
+ "p_mandela_0": [
+  "statue",
+  1.0,
+  [
+   "mandela",
+   "modern"
+  ]
+ ],
+ "p_mandela_2": [
+  "print",
+  1.0,
+  [
+   "mandela",
+   "modern"
+  ]
+ ],
+ "p_mandela_3": [
+  "print",
+  1.0,
+  [
+   "mandela",
+   "modern"
+  ]
+ ],
+ "p_owens_0": [
+  "statue",
+  1.0,
+  [
+   "owens",
+   "modern"
+  ]
+ ],
+ "p_owens_2": [
+  "print",
+  1.0,
+  [
+   "owens",
+   "modern"
+  ]
+ ],
+ "p_owens_3": [
+  "print",
+  1.0,
+  [
+   "owens",
+   "modern"
+  ]
+ ],
+ "p_roosevelt_0": [
+  "statue",
+  1.0,
+  [
+   "roosevelt",
+   "modern"
+  ]
+ ],
+ "p_roosevelt_3": [
+  "statue",
+  1.0,
+  [
+   "roosevelt",
+   "modern"
+  ]
+ ],
+ "p_rowling_0": [
+  "print",
+  1.0,
+  [
+   "rowling",
+   "modern"
+  ]
+ ],
+ "p_rowling_1": [
+  "statue",
+  1.0,
+  [
+   "rowling",
+   "modern"
+  ]
+ ],
+ "p_rowling_2": [
+  "print",
+  1.0,
+  [
+   "rowling",
+   "modern"
+  ]
  ]
 }

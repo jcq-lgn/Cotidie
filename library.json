@@ -1593,5 +1593,157 @@
    "rowling",
    "modern"
   ]
+ ],
+ "p_goggins_0": [
+  "print",
+  1.0,
+  [
+   "goggins",
+   "modern"
+  ]
+ ],
+ "p_goggins_1": [
+  "print",
+  1.0,
+  [
+   "goggins",
+   "modern"
+  ]
+ ],
+ "p_goggins_2": [
+  "print",
+  1.0,
+  [
+   "goggins",
+   "modern"
+  ]
+ ],
+ "p_goggins_3": [
+  "print",
+  1.0,
+  [
+   "goggins",
+   "modern"
+  ]
+ ],
+ "p_arnold_0": [
+  "statue",
+  1.0,
+  [
+   "arnold",
+   "modern"
+  ]
+ ],
+ "p_arnold_2": [
+  "print",
+  1.0,
+  [
+   "arnold",
+   "modern"
+  ]
+ ],
+ "p_arnold_4": [
+  "statue",
+  1.0,
+  [
+   "arnold",
+   "modern"
+  ]
+ ],
+ "p_churchill_1": [
+  "statue",
+  1.0,
+  [
+   "churchill",
+   "modern"
+  ]
+ ],
+ "p_churchill_3": [
+  "print",
+  1.0,
+  [
+   "churchill",
+   "modern"
+  ]
+ ],
+ "p_kobe_0": [
+  "statue",
+  1.0,
+  [
+   "kobe",
+   "modern"
+  ]
+ ],
+ "p_kobe_4": [
+  "print",
+  1.0,
+  [
+   "kobe",
+   "modern"
+  ]
+ ],
+ "p_lincoln_2": [
+  "statue",
+  1.0,
+  [
+   "lincoln",
+   "modern"
+  ]
+ ],
+ "p_lincoln_3": [
+  "print",
+  1.0,
+  [
+   "lincoln",
+   "modern"
+  ]
+ ],
+ "p_jobs_0": [
+  "print",
+  1.0,
+  [
+   "jobs",
+   "modern"
+  ]
+ ],
+ "p_jobs_1": [
+  "statue",
+  1.0,
+  [
+   "jobs",
+   "modern"
+  ]
+ ],
+ "p_jobs_4": [
+  "statue",
+  1.0,
+  [
+   "jobs",
+   "modern"
+  ]
+ ],
+ "p_ronaldo_2": [
+  "statue",
+  1.0,
+  [
+   "ronaldo",
+   "modern"
+  ]
+ ],
+ "p_ronaldo_3": [
+  "print",
+  1.0,
+  [
+   "ronaldo",
+   "modern"
+  ]
+ ],
+ "p_ronaldo_4": [
+  "statue",
+  1.0,
+  [
+   "ronaldo",
+   "modern"
+  ]
  ]
 }

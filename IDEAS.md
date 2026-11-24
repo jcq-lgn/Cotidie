@@ -22,14 +22,23 @@
 - [ ] Phidippidès et le marathon : courir jusqu'au bout {battle,athlete}
 - [ ] J. K. Rowling, mère seule sans argent, refusée par une douzaine d'éditeurs avant Harry Potter {rowling}
 - [ ] Léonidas et les 300 aux Thermopyles : « Viens les prendre » {sparta}
+- [ ] David Goggins : de 135 kg à Navy SEAL, plus de 45 kg perdus en moins de trois mois {goggins}
 - [ ] Démosthène et les cailloux : le bègue devenu le plus grand orateur d'Athènes {philosopher}
+- [ ] Kobe Bryant et la « Mamba mentality » : à l'entraînement avant le lever du soleil {kobe}
 - [ ] Sénèque et l'exercice de pauvreté volontaire : vivre quelques jours avec presque rien {seneca}
+- [ ] Arnold Schwarzenegger, arrivé en Amérique presque sans parler anglais, qui écrivait ses objectifs {arnold}
 - [ ] Hercule à la croisée des chemins : le vice facile ou la vertu difficile {hero}
+- [ ] Le « cookie jar » de Goggins : la liste de vos victoires passées pour tenir dans les moments durs {goggins}
 - [ ] Les légions romaines : 30 km de marche par jour avec 30 kg sur le dos {legion}
+- [ ] Abraham Lincoln : des défaites électorales en série avant d'atteindre la présidence {lincoln}
 - [ ] Marc Aurèle, empereur le plus puissant du monde, qui écrivait pour se corriger lui-même {emperor}
+- [ ] Winston Churchill, 1941 : « Ne cédez jamais, jamais, jamais » {churchill}
 - [ ] Glaucos de Carystos, le laboureur qui redressa un soc de charrue à coups de poing et devint champion olympique de pugilat (Pausanias, VI) {athlete,strength}
+- [ ] Steve Jobs, renvoyé de sa propre entreprise en 1985, revenu la sauver en 1997 {jobs}
 - [ ] Le stoïcien et l'obstacle : « L'obstacle à l'action fait avancer l'action » {philosopher}
+- [ ] Cristiano Ronaldo, opéré du cœur à 15 ans, devenu l'un des plus grands joueurs de l'histoire {ronaldo}
 - [ ] Les Jeux olympiques antiques : 10 mois d'entraînement obligatoire avant de concourir {athlete}
+- [ ] Goggins et le miroir des responsabilités : se regarder en face chaque matin {goggins}
 - [ ] Cincinnatus : le dictateur qui rendit le pouvoir pour retourner à sa charrue {cincinnatus}
 - [ ] Épictète : « Ne dis pas que tu es philosophe, agis en philosophe » {philosopher}
 - [ ] Spartacus : de l'arène à la révolte {gladiator,arena}

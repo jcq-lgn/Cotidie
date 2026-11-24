@@ -1,41 +1,41 @@
 # Idées de vidéos (cocher [x] quand publiée — la tâche quotidienne prend la 1re non cochée)
 
 - [x] 001 Milon de Crotone : le veau porté chaque jour (surcharge progressive)
-- [ ] Marc Aurèle et le réveil : « Au point du jour, quand tu as du mal à te lever… » (Pensées, livre V)
+- [ ] Marc Aurèle et le réveil : « Au point du jour, quand tu as du mal à te lever… » (Pensées, livre V) {emperor}
 - [ ] La règle des 40 % de David Goggins : quand vous croyez être au bout, vous n'êtes qu'à 40 %
-- [ ] Les gladiateurs « hordearii » : les mangeurs d'orge, des athlètes et pas des héros de films
-- [ ] L'agogé spartiate : entraînés dès 7 ans, la souffrance comme école
-- [ ] Sénèque : « Ce n'est pas que nous ayons peu de temps, c'est que nous en perdons beaucoup »
-- [ ] Les Romains gravaient leurs victoires dans la pierre (arcs de triomphe, colonne Trajane) : la liste de vos victoires passées pour tenir dans les moments durs
-- [ ] Épictète, esclave devenu philosophe : ce qui dépend de vous et ce qui n'en dépend pas
-- [ ] Memento mori : l'esclave qui murmurait au général pendant son triomphe
-- [ ] Caton d'Utique marchait pieds nus et tête nue pour s'endurcir
-- [ ] Diogène dans son tonneau : l'homme qui n'avait besoin de rien
-- [ ] Phidippidès et le marathon : courir jusqu'au bout
-- [ ] Léonidas et les 300 aux Thermopyles : « Viens les prendre »
-- [ ] Démosthène et les cailloux : le bègue devenu le plus grand orateur d'Athènes
-- [ ] Sénèque et l'exercice de pauvreté volontaire : vivre quelques jours avec presque rien
-- [ ] Hercule à la croisée des chemins : le vice facile ou la vertu difficile
-- [ ] Les légions romaines : 30 km de marche par jour avec 30 kg sur le dos
-- [ ] Marc Aurèle, empereur le plus puissant du monde, qui écrivait pour se corriger lui-même
-- [ ] Glaucos de Carystos, le laboureur qui redressa un soc de charrue à coups de poing et devint champion olympique de pugilat (Pausanias, VI)
-- [ ] Le stoïcien et l'obstacle : « L'obstacle à l'action fait avancer l'action »
-- [ ] Les Jeux olympiques antiques : 10 mois d'entraînement obligatoire avant de concourir
-- [ ] Cincinnatus : le dictateur qui rendit le pouvoir pour retourner à sa charrue
-- [ ] Épictète : « Ne dis pas que tu es philosophe, agis en philosophe »
-- [ ] Spartacus : de l'arène à la révolte
-- [ ] Sénèque sur la colère : attendez avant de réagir
-- [ ] Le Colosse de Rhodes et les années de travail derrière une merveille
-- [ ] Achille et le talon : une seule faiblesse négligée suffit
-- [ ] Marc Aurèle : « Tu as le pouvoir sur ton esprit, pas sur les événements »
-- [ ] Les bains froids romains (frigidarium) et la discipline du froid
-- [ ] Ulysse et les sirènes : s'attacher au mât, la discipline contre la tentation
-- [ ] Sénèque et le temps volé : « On ne vous vole pas votre temps, vous le donnez » (téléphone, réseaux)
-- [ ] Épictète sur la procrastination : « Jusqu'à quand attendras-tu pour exiger de toi le meilleur ? »
-- [ ] Les légionnaires s'entraînaient avec des armes deux fois plus lourdes que celles du combat
-- [ ] Marc Aurèle sur les gens difficiles au travail : « Dès l'aurore, dis-toi : je rencontrerai un indiscret, un ingrat… »
-- [ ] Sénèque et l'examen du soir : chaque nuit, il passait sa journée en revue sans se mentir (De la colère, III, 36)
-- [ ] Sénèque, l'homme le plus riche de Rome, qui s'entraînait à être pauvre
-- [ ] Caton l'Ancien apprend le grec à 80 ans : il n'est jamais trop tard pour commencer
-- [ ] Les Spartiates et le laconisme : parler moins, agir plus
+- [ ] Les gladiateurs « hordearii » : les mangeurs d'orge, des athlètes et pas des héros de films {gladiator,arena}
+- [ ] L'agogé spartiate : entraînés dès 7 ans, la souffrance comme école {sparta}
+- [ ] Sénèque : « Ce n'est pas que nous ayons peu de temps, c'est que nous en perdons beaucoup » {seneca}
+- [ ] Les Romains gravaient leurs victoires dans la pierre (arcs de triomphe, colonne Trajane) : la liste de vos victoires passées pour tenir dans les moments durs {triumph}
+- [ ] Épictète, esclave devenu philosophe : ce qui dépend de vous et ce qui n'en dépend pas {philosopher}
+- [ ] Memento mori : l'esclave qui murmurait au général pendant son triomphe {triumph}
+- [ ] Caton d'Utique marchait pieds nus et tête nue pour s'endurcir {philosopher,old}
+- [ ] Diogène dans son tonneau : l'homme qui n'avait besoin de rien {diogenes}
+- [ ] Phidippidès et le marathon : courir jusqu'au bout {battle,athlete}
+- [ ] Léonidas et les 300 aux Thermopyles : « Viens les prendre » {sparta}
+- [ ] Démosthène et les cailloux : le bègue devenu le plus grand orateur d'Athènes {philosopher}
+- [ ] Sénèque et l'exercice de pauvreté volontaire : vivre quelques jours avec presque rien {seneca}
+- [ ] Hercule à la croisée des chemins : le vice facile ou la vertu difficile {hero}
+- [ ] Les légions romaines : 30 km de marche par jour avec 30 kg sur le dos {legion}
+- [ ] Marc Aurèle, empereur le plus puissant du monde, qui écrivait pour se corriger lui-même {emperor}
+- [ ] Glaucos de Carystos, le laboureur qui redressa un soc de charrue à coups de poing et devint champion olympique de pugilat (Pausanias, VI) {athlete,strength}
+- [ ] Le stoïcien et l'obstacle : « L'obstacle à l'action fait avancer l'action » {philosopher}
+- [ ] Les Jeux olympiques antiques : 10 mois d'entraînement obligatoire avant de concourir {athlete}
+- [ ] Cincinnatus : le dictateur qui rendit le pouvoir pour retourner à sa charrue {cincinnatus}
+- [ ] Épictète : « Ne dis pas que tu es philosophe, agis en philosophe » {philosopher}
+- [ ] Spartacus : de l'arène à la révolte {gladiator,arena}
+- [ ] Sénèque sur la colère : attendez avant de réagir {seneca}
+- [ ] Le Colosse de Rhodes et les années de travail derrière une merveille {rhodes}
+- [ ] Achille et le talon : une seule faiblesse négligée suffit {achilles}
+- [ ] Marc Aurèle : « Tu as le pouvoir sur ton esprit, pas sur les événements » {emperor}
+- [ ] Les bains froids romains (frigidarium) et la discipline du froid {baths}
+- [ ] Ulysse et les sirènes : s'attacher au mât, la discipline contre la tentation {ulysses}
+- [ ] Sénèque et le temps volé : « On ne vous vole pas votre temps, vous le donnez » (téléphone, réseaux) {seneca}
+- [ ] Épictète sur la procrastination : « Jusqu'à quand attendras-tu pour exiger de toi le meilleur ? » {philosopher}
+- [ ] Les légionnaires s'entraînaient avec des armes deux fois plus lourdes que celles du combat {legion}
+- [ ] Marc Aurèle sur les gens difficiles au travail : « Dès l'aurore, dis-toi : je rencontrerai un indiscret, un ingrat… » {emperor}
+- [ ] Sénèque et l'examen du soir : chaque nuit, il passait sa journée en revue sans se mentir (De la colère, III, 36) {seneca}
+- [ ] Sénèque, l'homme le plus riche de Rome, qui s'entraînait à être pauvre {seneca}
+- [ ] Caton l'Ancien apprend le grec à 80 ans : il n'est jamais trop tard pour commencer {philosopher,old}
+- [ ] Les Spartiates et le laconisme : parler moins, agir plus {sparta}
 

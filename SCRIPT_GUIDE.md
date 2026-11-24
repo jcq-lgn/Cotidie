@@ -4,8 +4,12 @@ Lire aussi `DA.md` (charte visuelle, validée par le propriétaire du compte —
 Exemple complet : `videos/001_milon_revolt.json`.
 
 ## Fond
-- Niche : motivation, discipline, stoïcisme, musculation. Histoires **vraies** et vérifiables : Antiquité (Rome, Grèce, Sparte), philosophes stoïciens (Marc Aurèle, Sénèque, Épictète), athlètes antiques. Les figures modernes (David Goggins…) seulement en clin d'œil, voir ci-dessous.
-- **Les images doivent coller au sujet.** La banque ne contient que des œuvres antiques : chaque vidéo raconte une histoire antique (personnage, lieu, objet visibles dans la banque). Une figure moderne (Goggins…) ne peut être qu'un clin d'œil d'une phrase, jamais le sujet. Si l'idée du jour est moderne, la raconter à travers un équivalent antique.
+- Niche : la motivation par l'exemple de **personnalités** réelles. **Une vidéo sur deux** : une personnalité moderne (sportifs, entrepreneurs, militaires, scientifiques, chefs d'État : Goggins, Ali, Kobe, Edison, Mandela…), puis une figure antique (Marc Aurèle, Sénèque, Épictète, Spartiates, Romains). L'ordre est fixé par `IDEAS.md`. Histoires **vraies** et vérifiables.
+- **Les images doivent montrer le sujet.** `scripts/today.py` donne `subject_tags` et `subject_images` : les images du sujet du jour (photos de la personnalité, ou gravures de l'événement antique).
+  - Accroche, couverture et au moins la moitié des scènes : une image de `subject_images`.
+  - Pour une personnalité moderne : `"tags": [les subject_tags]` sur **chaque** scène, pour que les plans rapides restent sur la personne. Jamais de statue grecque pour illustrer une personnalité moderne.
+  - Si `subject_images` est vide : choisir les images de la sélection les plus proches du sujet, et l'écrire dans la notification (« images manquantes pour … ») pour que le propriétaire demande l'ajout.
+- **Crédits photo** : si `credits` (sortie de `today.py`) n'est pas vide pour les images utilisées, ajouter à la fin de la description une ligne « 📷 » avec les auteurs et licences, ex. « 📷 Wikimedia Commons : J. Smith (CC BY-SA 4.0) ». C'est obligatoire pour les licences CC BY et CC BY-SA.
 - Exactitude : pas de fausse citation ni de chiffre inventé. En cas de doute, formuler « la légende raconte… ».
 - **Vouvoiement**. Phrases courtes, rythmées, qui se terminent par un appel à l'action concret.
 - Structure : accroche choc en 1 phrase (≤ 3 s) → histoire → leçon → application concrète « aujourd'hui… » → chute forte.
@@ -57,7 +61,7 @@ Exactement 3 temps, 2 à 3 phrases au total, 25 à 40 mots :
 Modèle de référence (vidéo 001) :
 > Il y a 2500 ans, un lutteur grec a découvert le seul secret de la force qui marche encore aujourd'hui. Juste un veau… et de la constance. 🏛️ Vous ajoutez quoi aujourd'hui ?
 
-Pas de listes, pas de « Pas d'appli. Pas de coach. » en rafale, pas plus d'un emoji, pas de hashtags dans la description (ils vont dans `hashtags`).
+Pas de listes, pas de « Pas d'appli. Pas de coach. » en rafale, pas plus d'un emoji (hors ligne 📷 des crédits), pas de hashtags dans la description (ils vont dans `hashtags`).
 
 ## Nudité : interdite
 La vidéo 001 (Milon) a été **supprimée par la modération automatique de TikTok** le 23/11/2026 : sa couverture et sa 1re image montraient des lutteurs nus. Les images à nudité intégrale sont listées dans `library_exclus.json` et retirées de la rotation. Ne jamais les choisir en `img` ni en `cover_img`. Préférer les bustes, têtes, armures, armes, ruines, animaux, statues drapées ou coupées à la taille.
